@@ -1,1 +1,79 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
 
+  <!-- Mobilvennlig -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>History Go</title>
+
+  <!-- Manifest & Service Worker -->
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="theme.css">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+  <!-- App-ramme -->
+  <div class="app-frame" aria-hidden="true"></div>
+
+  <!-- Topp -->
+  <header class="site-header">
+    <div class="brand">
+      <img src="bilder/logo_historygo.PNG" class="brand-logo" alt="History Go">
+      <span class="brand-name">Utforsk</span>
+    </div>
+
+    <div class="actions">
+      <a href="profile.html" class="arrow-link" aria-label="Min profil">⟶</a>
+    </div>
+  </header>
+
+
+  <!-- Kartet -->
+  <div id="map"></div>
+
+  <!-- Kartkontroller -->
+  <div class="map-controls">
+    <button data-map-mode="enter" title="Fullskjerm">⤢</button>
+    <button data-map-mode="exit" title="Lukk fullskjerm">⤡</button>
+  </div>
+
+  <main>
+
+    <!-- Mini-profil -->
+    <section class="panel mini-profile" id="miniProfile">
+      <div class="info">
+        <h2 id="miniName">Profil</h2>
+        <div id="miniStats" class="muted">0 steder · 0 personer · 0 quiz</div>
+      </div>
+      <a href="profile.html" class="btn">Profil</a>
+    </section>
+
+    <!-- I nærheten -->
+    <section class="panel" id="nearbyPanel">
+      <h2>I nærheten</h2>
+      <div id="nearbyList" class="cards"></div>
+    </section>
+
+  </main>
+
+
+  <!-- Scriptrekkefølge -->
+  <script src="utils/popup-utils.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

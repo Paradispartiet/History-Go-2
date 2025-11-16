@@ -3,7 +3,7 @@
    Rask, stabil, offline-klar, ingen cache-bugs.
    ============================================================ */
 
-const CACHE_NAME = "history-go-v5";  // øk versjonsnummer ved endringer
+const CACHE_NAME = "history-go-v6";  // øk versjonsnummer ved endringer
 
 // Filer vi alltid vil ha tilgjengelig offline
 const CORE_ASSETS = [

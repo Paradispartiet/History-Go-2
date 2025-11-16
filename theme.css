@@ -1,14 +1,686 @@
 /* ============================================================
-   POPUP SYSTEM — HG UI
-   ------------------------------------------------------------
-   Støtter:
-   • Person-popup
-   • Steds-popup
-   • Reward-popup
-   • Quiz-knapp handler
+   HISTORY GO – THEME.CSS (NY VERSJON)
+   Hele appen: kart, utforsker, profil, popups.
    ============================================================ */
 
+/* ------------------------------------------------------------
+   0. ROOT & GLOBALT
+   ------------------------------------------------------------ */
+
+:root {
+  --bg: #0a1929;
+  --panel: rgba(13,27,42,0.96);
+  --panel-soft: rgba(13,27,42,0.88);
+  --panel-border: rgba(255,255,255,0.08);
+  --text: #e6edf3;
+  --text-muted: #9fb3c8;
+  --accent: #ffd600;
+  --accent-soft: #ffdf3b;
+  --danger: #ff4b5c;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Felles lenker */
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------
+   1. APP-FRAME (DISKRET RAMME RUNDT HELE APPEN)
+   ------------------------------------------------------------ */
+
+.app-frame {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.7);
+  z-index: 50;
+}
+
+/* ------------------------------------------------------------
+   2. KART
+   ------------------------------------------------------------ */
+
+#map {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background: #06101d;
+}
+
+/* Kartknapper oppe til høyre */
+
+.map-controls {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 200;
+}
+
+.map-controls button {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(13,27,42,0.9);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-controls button:hover {
+  background: rgba(21,38,58,0.95);
+}
+
+/* Kartmarkører */
+
+.hg-marker .dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.hg-marker.active-marker .dot {
+  transform: scale(1.1);
+  box-shadow: 0 0 14px rgba(255,214,0,0.7);
+}
+
+/* ------------------------------------------------------------
+   3. HOVEDLAYOUT: HEADER + MAIN PANELS
+   ------------------------------------------------------------ */
+
+.site-header {
+  position: relative;
+  z-index: 150;
+  padding: 10px 12px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-logo {
+  height: 28px;
+}
+
+.brand-name {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  position: relative;
+  z-index: 120;
+  padding: 6px 12px 14px;
+}
+
+/* Paneler (kortene over kartet) */
+
+.panel {
+  background: var(--panel);
+  border-radius: 16px;
+  border: 1px solid var(--panel-border);
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.5);
+}
+
+/* ------------------------------------------------------------
+   4. TEKSTSTILER
+   ------------------------------------------------------------ */
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.muted {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.linkish {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.linkish:hover {
+  color: #fff;
+}
+
+.arrow-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+/* ------------------------------------------------------------
+   5. KNAPPER & TOGGLES
+   ------------------------------------------------------------ */
+
+button {
+  font-family: inherit;
+}
+
+.primary,
+.secondary,
+.chip,
+.btn {
+  border-radius: 999px;
+  padding: 8px 14px;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--accent);
+  color: #000;
+  font-weight: 600;
+}
+
+.primary:hover {
+  background: var(--accent-soft);
+}
+
+.secondary {
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.secondary:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.chip {
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  border-color: rgba(255,255,255,0.18);
+  font-size: 0.8rem;
+}
+
+.chip.ghost {
+  background: transparent;
+  border-color: rgba(255,255,255,0.25);
+}
+
+.chip.ghost:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.btn {
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  border-color: rgba(255,255,255,0.25);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn.danger {
+  background: rgba(255,75,92,0.15);
+  border-color: rgba(255,75,92,0.6);
+  color: #ffdfe3;
+}
+
+.btn.danger:hover {
+  background: rgba(255,75,92,0.25);
+}
+
+/* Toggle (Testmodus) */
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.toggle input {
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   6. MINI-PROFIL (forsiden)
+   ------------------------------------------------------------ */
+
+.mini-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.mini-profile .info {
+  flex: 1;
+}
+
+.profile-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#miniName {
+  font-size: 1rem;
+  margin: 0;
+}
+
+#miniStats {
+  margin: 4px 0 0;
+}
+
+/* ------------------------------------------------------------
+   7. NÆROMRÅDE-LISTE
+   ------------------------------------------------------------ */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.place-card {
+  display: flex;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: var(--panel-soft);
+  border: 1px solid rgba(255,255,255,0.06);
+  cursor: pointer;
+}
+
+.place-card:hover {
+  background: rgba(23,40,60,0.98);
+}
+
+.place-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.place-card-main {
+  flex: 1;
+}
+
+.place-card-title {
+  font-size: 0.95rem;
+  margin-bottom: 2px;
+}
+
+.place-card-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ------------------------------------------------------------
+   8. TOAST (app + profil)
+   ------------------------------------------------------------ */
+
+#toast,
+.hg-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  background: rgba(9,20,35,0.95);
+  color: var(--text);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+  z-index: 9500;
+}
+
+.hg-toast {
+  /* js fader selv ut via opacity/transform */
+}
+
+/* ------------------------------------------------------------
+   9. MODALER (BADGES, QUIZ) – FELLES
+   ------------------------------------------------------------ */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 8000;
+}
+
+.modal[aria-hidden="true"] {
+  display: none;
+}
+
+.modal-content {
+  background: var(--panel);
+  border-radius: 16px;
+  border: 1px solid var(--panel-border);
+  padding: 18px;
+  max-width: 420px;
+  width: 90%;
+  color: var(--text);
+  position: relative;
+}
+
+/* Badge-modal spesifikt */
+
+.badge-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.badge-title {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.badge-level {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 4px 0 8px;
+}
+
+.badge-progress {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.badge-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  width: 0;
+}
+
+.badge-progress-text {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.badge-quizzes {
+  padding-left: 18px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Lukke-knapp inne i modal (profile.js bruker .close-btn) */
+
+.close-btn {
+  display: inline-flex;
+  margin-top: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------
+   10. PROFILSIDE – LAYOUT
+   ------------------------------------------------------------ */
+
+body.profile-page {
+  background: radial-gradient(circle at top, #172a3c 0, #050b12 48%, #020509 100%);
+}
+
+.profile-page main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 10px 12px 40px;
+}
+
+.profile-card {
+  background: var(--panel);
+  border-radius: 18px;
+  border: 1px solid var(--panel-border);
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.65);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profileName {
+  font-size: 1.4rem;
+  margin: 0 0 4px;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 14px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Merker (grid) */
+
+#merits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.badge-mini {
+  background: var(--panel-soft);
+  border-radius: 14px;
+  border: 1px solid var(--panel-border);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.badge-mini:hover {
+  background: rgba(26,42,60,0.98);
+}
+
+.badge-mini img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.badge-mini-title {
+  font-size: 0.95rem;
+}
+
+.badge-mini-level {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Samlinger: personer & steder */
+
+.section {
+  margin-bottom: 18px;
+}
+
+.section h2 {
+  margin-bottom: 8px;
+}
+
+#peopleGrid,
+#placesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.avatar-card,
+.place-card.profile {
+  background: var(--panel-soft);
+  border-radius: 14px;
+  border: 1px solid var(--panel-border);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.avatar-card:hover,
+.place-card.profile:hover {
+  background: rgba(26,42,60,0.98);
+}
+
+.avatar-card img,
+.place-card.profile img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.avatar-card-name,
+.place-card-name {
+  font-size: 0.9rem;
+}
+
+/* ------------------------------------------------------------
+   11. TIDSLINJE
+   ------------------------------------------------------------ */
+
+.timeline-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.timeline-progress {
+  width: 100%;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  overflow: hidden;
+  margin: 4px 0;
+}
+
+#timelineProgressBar {
+  height: 100%;
+  background: var(--accent);
+  width: 0;
+}
+
+#timelineProgressText {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+#timelineBody {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.timeline-card {
+  background: var(--panel-soft);
+  border-radius: 12px;
+  border: 1px solid var(--panel-border);
+  padding: 8px;
+  cursor: pointer;
+}
+
+.timeline-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+
+.timeline-name {
+  font-size: 0.9rem;
+}
+
+.timeline-year {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ------------------------------------------------------------
+   12. POPUP-SYSTEM (MATCHER popup-utils.js)
+   ------------------------------------------------------------ */
+
 /* Overlay */
+
 .hg-popup {
   position: fixed;
   inset: 0;
@@ -28,7 +700,8 @@
   transform: scale(1);
 }
 
-/* Popup-boksen */
+/* Popup-boks */
+
 .hg-popup-inner {
   position: relative;
   max-width: 420px;
@@ -39,10 +712,10 @@
   border: 1px solid rgba(255,255,255,0.06);
   box-shadow: 0 8px 28px rgba(0,0,0,0.55);
   color: #e6edf3;
-  font-family: system-ui, sans-serif;
 }
 
-/* Close-knapp */
+/* Close */
+
 .hg-popup-close {
   position: absolute;
   top: 10px;
@@ -54,11 +727,13 @@
   color: #fff;
   opacity: 0.75;
 }
+
 .hg-popup-close:hover {
   opacity: 1;
 }
 
-/* Tekster */
+/* Tekst */
+
 .hg-popup-title,
 .hg-popup-name {
   font-size: 22px;
@@ -67,11 +742,11 @@
   color: #fff;
 }
 
-/* Undertekst */
 .hg-popup-cat {
   font-size: 14px;
   color: #9fb3c8;
 }
+
 .hg-popup-desc {
   margin-top: 12px;
   line-height: 1.45;
@@ -79,6 +754,7 @@
 }
 
 /* Bilder */
+
 .hg-popup-img {
   width: 100%;
   border-radius: 10px;
@@ -90,7 +766,7 @@
   position: absolute;
   right: 14px;
   top: 14px;
-  opacity: .95;
+  opacity: 0.95;
 }
 
 .hg-popup-face {
@@ -100,14 +776,8 @@
   display: block;
 }
 
-.hg-facechip img {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+/* Person-/sted-lister */
 
-/* Seksjon */
 .hg-section {
   margin-top: 18px;
 }
@@ -124,7 +794,6 @@
   font-size: 14px;
 }
 
-/* Person- og sted-lister */
 .hg-popup-people {
   display: flex;
   flex-wrap: wrap;
@@ -143,6 +812,7 @@
   color: #fff;
   font-size: 14px;
 }
+
 .hg-facechip:hover {
   background: rgba(255,255,255,0.12);
 }
@@ -157,11 +827,13 @@
   color: #fff;
   font-size: 14px;
 }
+
 .hg-place-chip:hover {
   background: rgba(255,255,255,0.14);
 }
 
-/* Quiz-knapp */
+/* Quiz-knapp inne i popup */
+
 .hg-quiz-btn {
   width: 100%;
   margin-top: 18px;
@@ -171,15 +843,17 @@
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  background: #FFD600;
+  background: var(--accent);
   font-weight: bold;
   color: #000;
 }
+
 .hg-quiz-btn:hover {
-  background: #ffdf3b;
+  background: var(--accent-soft);
 }
 
 /* Reward-popup */
+
 .hg-reward {
   text-align: center;
   padding: 20px 0;
@@ -190,4 +864,19 @@
   margin: 12px auto;
   display: block;
   border-radius: 14px;
+}
+
+/* ------------------------------------------------------------
+   13. RESPONSIVITET (SMÅ JUSTERINGER)
+   ------------------------------------------------------------ */
+
+@media (min-width: 768px) {
+  main {
+    max-width: 640px;
+    margin: 0 auto 24px;
+  }
+
+  .panel {
+    margin-bottom: 14px;
+  }
 }

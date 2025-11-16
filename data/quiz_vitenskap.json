@@ -1,0 +1,450 @@
+[
+  {
+    "id": "gamlebyen_skole_quiz_1",
+    "categoryId": "vitenskap",
+    "placeId": "gamlebyen_skole",
+    "question": "Når ble Gamlebyen skole grunnlagt?",
+    "options": ["1805", "1700-tallet", "1603"],
+    "answer": "1700-tallet"
+  },
+  {
+    "id": "gamlebyen_skole_quiz_2",
+    "categoryId": "vitenskap",
+    "placeId": "gamlebyen_skole",
+    "question": "Hva var skolens opprinnelige formål?",
+    "options": ["Presteskole", "Skriveskole for embetsverket", "Undervisning for byens barn"],
+    "answer": "Undervisning for byens barn"
+  },
+  {
+    "id": "gamlebyen_skole_quiz_3",
+    "categoryId": "vitenskap",
+    "placeId": "gamlebyen_skole",
+    "question": "Hvilken bydel ligger skolen i?",
+    "options": ["Sagene", "Gamle Oslo", "Grünerløkka"],
+    "answer": "Gamle Oslo"
+  },
+  {
+    "id": "gamlebyen_skole_quiz_4",
+    "categoryId": "vitenskap",
+    "placeId": "gamlebyen_skole",
+    "question": "Hva kjennetegner bygningen arkitektonisk?",
+    "options": ["Trebygning med sveitserstil", "Murbygg med klassisistiske trekk", "Betongbygg fra etterkrigstiden"],
+    "answer": "Murbygg med klassisistiske trekk"
+  },
+  {
+    "id": "gamlebyen_skole_quiz_5",
+    "categoryId": "vitenskap",
+    "placeId": "gamlebyen_skole",
+    "question": "Hva brukes Gamlebyen skole til i dag?",
+    "options": ["Kulturhus", "Barneskole i drift", "Historisk museum"],
+    "answer": "Barneskole i drift"
+  },
+  {
+    "id": "nobelinstituttet_quiz_1",
+    "categoryId": "vitenskap",
+    "placeId": "nobelinstituttet",
+    "question": "Når sto Nobelinstituttet ferdig som bygning i Oslo?",
+    "options": ["1905", "1897", "1910"],
+    "answer": "1905"
+  },
+  {
+    "id": "nobelinstituttet_quiz_2",
+    "categoryId": "vitenskap",
+    "placeId": "nobelinstituttet",
+    "question": "Hva var instituttets opprinnelige hovedformål?",
+    "options": ["Å bistå Nobelkomiteen i arbeidet med fredsprisen", "Å arrangere vitenskapelige konferanser", "Å være laboratorium for fysikk og kjemi"],
+    "answer": "Å bistå Nobelkomiteen i arbeidet med fredsprisen"
+  },
+  {
+    "id": "nobelinstituttet_quiz_3",
+    "categoryId": "vitenskap",
+    "placeId": "nobelinstituttet",
+    "question": "Hvilken kjent arkitekt tegnet Nobelinstituttet i Drammensveien?",
+    "options": ["Bredo Greve", "Magnus Poulsson", "Henrik Bull"],
+    "answer": "Bredo Greve"
+  },
+  {
+    "id": "nobelinstituttet_quiz_4",
+    "categoryId": "vitenskap",
+    "placeId": "nobelinstituttet",
+    "question": "Hvilken internasjonal organisasjon har hatt nære bånd til Nobelinstituttet siden 1901?",
+    "options": ["Den Norske Nobelkomité", "FNs fredsråd", "Den Nordiske Vitenskapsunion"],
+    "answer": "Den Norske Nobelkomité"
+  },
+  {
+    "id": "nobelinstituttet_quiz_5",
+    "categoryId": "vitenskap",
+    "placeId": "nobelinstituttet",
+    "question": "Hvilken type forskning har blitt utført ved Nobelinstituttet utenom fredsprisarbeidet?",
+    "options": ["Studier i freds- og konfliktforskning", "Kjernefysikk og kjemisk analyse", "Arkeologiske undersøkelser"],
+    "answer": "Studier i freds- og konfliktforskning"
+  },
+  {
+    "id": "observatoriet_quiz_1",
+    "categoryId": "vitenskap",
+    "placeId": "observatoriet",
+    "question": "Hva var hovedformålet med Observatoriet da det ble bygget?",
+    "options": ["Måle tid og stjerner", "Meteorologisk forskning", "Undervisning i fysikk"],
+    "answer": "Måle tid og stjerner"
+  },
+  {
+    "id": "observatoriet_quiz_2",
+    "categoryId": "vitenskap",
+    "placeId": "observatoriet",
+    "question": "Når sto Observatoriet ferdig?",
+    "options": ["1833", "1814", "1850"],
+    "answer": "1833"
+  },
+  {
+    "id": "observatoriet_quiz_3",
+    "categoryId": "vitenskap",
+    "placeId": "observatoriet",
+    "question": "Hvilken kjent vitenskapsmann var Observatoriets første direktør?",
+    "options": ["Christopher Hansteen", "Carl Fredrik Dons", "Ole Jacob Broch"],
+    "answer": "Christopher Hansteen"
+  },
+  {
+    "id": "observatoriet_quiz_4",
+    "categoryId": "vitenskap",
+    "placeId": "observatoriet",
+    "question": "Hva ble Observatoriet brukt til etter at astronomien flyttet ut på 1930-tallet?",
+    "options": ["Meteorologisk forskning og undervisning", "Botaniske studier", "Kjemilaboratorium"],
+    "answer": "Meteorologisk forskning og undervisning"
+  },
+  {
+    "id": "observatoriet_quiz_5",
+    "categoryId": "vitenskap",
+    "placeId": "observatoriet",
+    "question": "Hva markerer nullmeridianen på Observatoriet i dag?",
+    "options": ["En messinglinje i gulvet", "Et bronsekompass på taket", "En stein i hagen"],
+    "answer": "En messinglinje i gulvet"
+  },
+  {
+    "id": "universitetet_quiz_1",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_hovedbygning",
+    "question": "Når sto Universitetets gamle hovedbygning ferdig?",
+    "options": ["1852", "1829", "1871"],
+    "answer": "1852"
+  },
+  {
+    "id": "universitetet_quiz_2",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_hovedbygning",
+    "question": "Hvem var arkitekten bak Universitetets gamle hovedbygning?",
+    "options": ["Christian Heinrich Grosch", "Hans Linstow", "Johan Henrik Nebelong"],
+    "answer": "Christian Heinrich Grosch"
+  },
+  {
+    "id": "universitetet_quiz_3",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_hovedbygning",
+    "question": "Hvilken bygningstype inspirerte utformingen av universitetet?",
+    "options": ["Klassisk tempelarkitektur", "Gotisk katedral", "Renessansens rådhus"],
+    "answer": "Klassisk tempelarkitektur"
+  },
+  {
+    "id": "universitetet_quiz_4",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_hovedbygning",
+    "question": "Hva kalles auditoriet som brukes til seremonier og offentlige forelesninger?",
+    "options": ["Aulaen", "Forum-hallen", "Bibliotekssalen"],
+    "answer": "Aulaen"
+  },
+  {
+    "id": "universitetet_quiz_5",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_hovedbygning",
+    "question": "Hva ble universitetet i Oslo opprinnelig kalt da det ble grunnlagt i 1811?",
+    "options": ["Det Kongelige Frederiks Universitet", "Universitas Norvegica", "Oslo Akademiske Collegium"],
+    "answer": "Det Kongelige Frederiks Universitet"
+  },
+
+  {
+    "id": "kjemibygning_quiz_1",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_kjemi",
+    "question": "Hva var den opprinnelige funksjonen til kjemibygget?",
+    "options": ["Laboratorium for medisinsk forskning", "Astronomisk observatorium", "Juridisk fakultet"],
+    "answer": "Laboratorium for medisinsk forskning"
+  },
+  {
+    "id": "kjemibygning_quiz_2",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_kjemi",
+    "question": "Når ble Kjemibygningen reist på universitetsområdet?",
+    "options": ["1850-årene", "1880-årene", "1900-årene"],
+    "answer": "1850-årene"
+  },
+  {
+    "id": "kjemibygning_quiz_3",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_kjemi",
+    "question": "Hva kjennetegnet tidlige kjemiske eksperimenter som ble utført her?",
+    "options": ["Bruk av håndblåste glassapparater", "Elektronmikroskopi", "Spektroskopi med laser"],
+    "answer": "Bruk av håndblåste glassapparater"
+  },
+  {
+    "id": "kjemibygning_quiz_4",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_kjemi",
+    "question": "Hvilket fakultet benyttet bygget etter at kjemifaget flyttet ut?",
+    "options": ["Medisinsk fakultet", "Det humanistiske fakultet", "Teologisk fakultet"],
+    "answer": "Medisinsk fakultet"
+  },
+  {
+    "id": "kjemibygning_quiz_5",
+    "categoryId": "vitenskap",
+    "placeId": "universitetets_gamle_kjemi",
+    "question": "Hva brukes den gamle kjemibygningen til i dag?",
+    "options": ["Kontorer og formidlingslokaler", "Undervisning i kjemi", "Forsøk med fysikk"],
+    "answer": "Kontorer og formidlingslokaler"
+  },
+  {
+    "id": "nasjonalbiblioteket_quiz_1",
+    "categoryId": "vitenskap",
+    "placeId": "nasjonalbiblioteket",
+    "question": "Hva er hovedoppgaven til Nasjonalbiblioteket?",
+    "options": ["Bevare og tilgjengeliggjøre Norges publiserte kulturarv", "Trykke nye bøker", "Arkivere statlige dokumenter"],
+    "answer": "Bevare og tilgjengeliggjøre Norges publiserte kulturarv"
+  },
+  {
+    "id": "nasjonalbiblioteket_quiz_2",
+    "categoryId": "vitenskap",
+    "placeId": "nasjonalbiblioteket",
+    "question": "Når ble bygget på Solli plass ferdigstilt?",
+    "options": ["1913", "1921", "1902"],
+    "answer": "1913"
+  },
+  {
+    "id": "nasjonalbiblioteket_quiz_3",
+    "categoryId": "vitenskap",
+    "placeId": "nasjonalbiblioteket",
+    "question": "Hva er spesielt med Nasjonalbibliotekets digitaliseringsprosjekt?",
+    "options": ["Alt norsk trykkmateriale blir gjort søkbart digitalt", "Kun manuskripter digitaliseres", "Kun bilder og kart digitaliseres"],
+    "answer": "Alt norsk trykkmateriale blir gjort søkbart digitalt"
+  },
+  {
+    "id": "eiler_sundt_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "eiler_sundt",
+    "question": "Hva forsket Eilert Sundt på i 1800-tallets Norge?",
+    "options": ["Folkeliv og fattigdom", "Arkitektur", "Kunsthistorie"],
+    "answer": "Folkeliv og fattigdom"
+  },
+  {
+    "id": "eiler_sundt_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "eiler_sundt",
+    "question": "Hva regnes Eilert Sundt som grunnleggeren av i Norge?",
+    "options": ["Sosiologi", "Statsvitenskap", "Historieforskning"],
+    "answer": "Sosiologi"
+  },
+  {
+    "id": "eiler_sundt_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "eiler_sundt",
+    "question": "Hvilket folk studerte Sundt spesielt?",
+    "options": ["Romani-folket", "Samer", "Fiskere i nord"],
+    "answer": "Romani-folket"
+  },
+  {
+    "id": "kristian_birkeland_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "kristian_birkeland",
+    "question": "Hva er Kristian Birkeland mest kjent for å ha forsket på?",
+    "options": ["Nordlyset", "Trollbinding", "Magnetiske steiner", "Snøkrystaller"],
+    "answer": "Nordlyset"
+  },
+  {
+    "id": "kristian_birkeland_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "kristian_birkeland",
+    "question": "Hva heter den metoden Birkeland utviklet for å produsere kunstgjødsel?",
+    "options": ["Birkeland–Eyde-metoden", "Birkeland–Linde-prosessen", "Oslo-prosessen", "Nitroprosessen"],
+    "answer": "Birkeland–Eyde-metoden"
+  },
+  {
+    "id": "kristian_birkeland_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "kristian_birkeland",
+    "question": "Hvor underviste Kristian Birkeland som professor?",
+    "options": ["Universitetet i Oslo", "NTNU", "Universitetet i Bergen", "UiT Norges arktiske universitet"],
+    "answer": "Universitetet i Oslo"
+  },
+
+  {
+    "id": "may_britt_moser_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "may_britt_moser",
+    "question": "Hva forsket May-Britt Moser på da hun fikk Nobelprisen?",
+    "options": ["Hjernens stedsans", "Genetiske sykdommer", "Kreftceller", "Menneskets søvnmønster"],
+    "answer": "Hjernens stedsans"
+  },
+  {
+    "id": "may_britt_moser_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "may_britt_moser",
+    "question": "Sammen med hvem delte May-Britt Moser Nobelprisen?",
+    "options": ["Edvard Moser og John O'Keefe", "Kari Nessa Nordtun og Gro Harlem Brundtland", "Knut Hamsun og Sigrid Undset", "Peter Waage og Cato Guldberg"],
+    "answer": "Edvard Moser og John O'Keefe"
+  },
+  {
+    "id": "may_britt_moser_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "may_britt_moser",
+    "question": "I hvilket år fikk Moser-paret Nobelprisen i medisin?",
+    "options": ["2014", "2008", "2019", "2020"],
+    "answer": "2014"
+  },
+
+  {
+    "id": "edvard_moser_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "edvard_moser",
+    "question": "Hvilket forskningsfelt arbeider Edvard Moser innenfor?",
+    "options": ["Nevrovitenskap", "Astrofysikk", "Kjemi", "Matematikk"],
+    "answer": "Nevrovitenskap"
+  },
+  {
+    "id": "edvard_moser_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "edvard_moser",
+    "question": "Hva heter instituttet han leder i Trondheim?",
+    "options": ["Kavliinstituttet for nevrovitenskap", "Moser-laboratoriet", "Nordisk institutt for hjerneforskning", "Norges Medisinske Senter"],
+    "answer": "Kavliinstituttet for nevrovitenskap"
+  },
+  {
+    "id": "edvard_moser_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "edvard_moser",
+    "question": "Hvilken del av hjernen forsket Moser på for å forstå stedsansen?",
+    "options": ["Entorhinal cortex", "Hippocampus", "Amygdala", "Cerebellum"],
+    "answer": "Entorhinal cortex"
+  },
+
+  {
+    "id": "peter_waage_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "peter_waage",
+    "question": "Hva er Peter Waage mest kjent for å ha formulert sammen med Guldberg?",
+    "options": ["Loven om massevirkning", "Loven om energi", "Termodynamikkens første lov", "Abels teorem"],
+    "answer": "Loven om massevirkning"
+  },
+  {
+    "id": "peter_waage_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "peter_waage",
+    "question": "Innen hvilket fagområde virket Peter Waage?",
+    "options": ["Kjemi", "Matematikk", "Fysikk", "Medisin"],
+    "answer": "Kjemi"
+  },
+  {
+    "id": "peter_waage_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "peter_waage",
+    "question": "Ved hvilket universitet arbeidet Peter Waage?",
+    "options": ["Universitetet i Oslo", "Universitetet i Bergen", "NTNU", "UiT"],
+    "answer": "Universitetet i Oslo"
+  },
+
+  {
+    "id": "cato_guldberg_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "cato_guldberg",
+    "question": "Hva samarbeidet Cato Maximilian Guldberg og Peter Waage om?",
+    "options": ["Kjemiske reaksjoner og massevirkning", "Elektrisk ledning", "Bølgeteori", "Mekanikk"],
+    "answer": "Kjemiske reaksjoner og massevirkning"
+  },
+  {
+    "id": "cato_guldberg_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "cato_guldberg",
+    "question": "Hva var Guldbergs fagområde?",
+    "options": ["Kjemi", "Astronomi", "Geologi", "Statistikk"],
+    "answer": "Kjemi"
+  },
+  {
+    "id": "cato_guldberg_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "cato_guldberg",
+    "question": "Hva ble effekten av loven om massevirkning?",
+    "options": ["Grunnlag for moderne kjemisk likevektsteori", "Oppdagelse av radioaktivitet", "Telegrafens utvikling", "Første atombombe"],
+    "answer": "Grunnlag for moderne kjemisk likevektsteori"
+  },
+
+  {
+    "id": "niels_henrik_abel_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "niels_henrik_abel",
+    "question": "Hva beviste Niels Henrik Abel i 1820-årene?",
+    "options": ["At femtegradslikningen ikke kan løses algebraisk", "At kvadratet av hypotenusen er konstant", "At lyset er en bølge", "At universet utvider seg"],
+    "answer": "At femtegradslikningen ikke kan løses algebraisk"
+  },
+  {
+    "id": "niels_henrik_abel_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "niels_henrik_abel",
+    "question": "Hvor gammel ble Abel da han døde?",
+    "options": ["26 år", "35 år", "50 år", "61 år"],
+    "answer": "26 år"
+  },
+  {
+    "id": "niels_henrik_abel_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "niels_henrik_abel",
+    "question": "Hva er oppkalt etter Niels Henrik Abel i dag?",
+    "options": ["Abelprisen", "Abelparken", "Abelfestivalen", "Abelkonvensjonen"],
+    "answer": "Abelprisen"
+  },
+
+  {
+    "id": "sophus_lie_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "sophus_lie",
+    "question": "Hva er Sophus Lie mest kjent for å ha utviklet?",
+    "options": ["Lie-grupper", "Lie-matriser", "Lie-tall", "Lie-prosessen"],
+    "answer": "Lie-grupper"
+  },
+  {
+    "id": "sophus_lie_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "sophus_lie",
+    "question": "Innenfor hvilken gren av matematikken arbeidet Lie?",
+    "options": ["Geometri", "Statistikk", "Analyse", "Tallteori"],
+    "answer": "Geometri"
+  },
+  {
+    "id": "sophus_lie_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "sophus_lie",
+    "question": "Hva brukes Lie-grupper til i dag?",
+    "options": ["Fysikk og symmetriteori", "Medisin", "Biologi", "Litteraturforskning"],
+    "answer": "Fysikk og symmetriteori"
+  },
+
+  {
+    "id": "arne_naess_quiz_1",
+    "categoryId": "vitenskap",
+    "personId": "arne_naess",
+    "question": "Hva var Arne Næss kjent for å grunnlegge?",
+    "options": ["Dypøkologi", "Humanetikk", "Kommunisme", "Logisk positivisme"],
+    "answer": "Dypøkologi"
+  },
+  {
+    "id": "arne_naess_quiz_2",
+    "categoryId": "vitenskap",
+    "personId": "arne_naess",
+    "question": "Hva var Arne Næss’ fagfelt?",
+    "options": ["Filosofi", "Teologi", "Sosiologi", "Antropologi"],
+    "answer": "Filosofi"
+  },
+  {
+    "id": "arne_naess_quiz_3",
+    "categoryId": "vitenskap",
+    "personId": "arne_naess",
+    "question": "Hvor underviste Arne Næss som professor?",
+    "options": ["Universitetet i Oslo", "Universitetet i Bergen", "NTNU", "UiT"],
+    "answer": "Universitetet i Oslo"
+  }
+]

@@ -1,0 +1,1561 @@
+[
+  {
+    "id": "munch_museet_quiz_1",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hva er Edvard Munch mest kjent for å ha malt?",
+    "options": ["Skrik", "Brudeferden i Hardanger", "Vinternatt i Rondane"],
+    "answer": "Skrik"
+  },
+  {
+    "id": "munch_museet_quiz_2",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hvor ligger MUNCH-museet i dag?",
+    "options": ["Bjørvika", "Majorstua", "Grünerløkka"],
+    "answer": "Bjørvika"
+  },
+  {
+    "id": "munch_museet_quiz_3",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hvilket tema preget mange av Munchs malerier?",
+    "options": ["Kjærlighet og angst", "Krig og natur", "Religion og politikk"],
+    "answer": "Kjærlighet og angst"
+  },
+  {
+    "id": "munch_museet_quiz_4",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "I hvilket år ble Munch født?",
+    "options": ["1863", "1883", "1893"],
+    "answer": "1863"
+  },
+  {
+    "id": "munch_museet_quiz_5",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hva het Munchs berømte maleri-serie om livets faser?",
+    "options": ["Livsfrisen", "Livssyklusen", "Menneskets vei"],
+    "answer": "Livsfrisen"
+  },
+
+  {
+    "id": "harriet_backer_quiz_1",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hva var Harriet Backer kjent for å male?",
+    "options": ["Interiører med lys og farger", "Abstrakte landskap", "Portretter av kongelige"],
+    "answer": "Interiører med lys og farger"
+  },
+  {
+    "id": "harriet_backer_quiz_2",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hvilken skole startet hun for kvinnelige kunstnere?",
+    "options": ["Malerskolen for kvinner", "Statens kunstakademi", "Nasjonalmuseets kvinnestudio"],
+    "answer": "Malerskolen for kvinner"
+  },
+  {
+    "id": "harriet_backer_quiz_3",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hvor stilles mange av Backers verk ut i dag?",
+    "options": ["Nasjonalmuseet", "MUNCH", "Astrup Fearnley Museet"],
+    "answer": "Nasjonalmuseet"
+  },
+  {
+    "id": "harriet_backer_quiz_4",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "I hvilket århundre var Harriet Backer aktiv?",
+    "options": ["1800-tallet", "1700-tallet", "1900-tallet"],
+    "answer": "1800-tallet"
+  },
+  {
+    "id": "harriet_backer_quiz_5",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hva var hennes søster Agathe Backer Grøndahl kjent som?",
+    "options": ["Komponist og pianist", "Skuespiller", "Forfatter"],
+    "answer": "Komponist og pianist"
+  },
+
+  {
+    "id": "vigeland_parken_quiz_1",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hva heter den store skulpturparken Gustav Vigeland laget i Oslo?",
+    "options": ["Vigelandsparken", "Ekebergparken", "Frognerparken"],
+    "answer": "Vigelandsparken"
+  },
+  {
+    "id": "vigeland_parken_quiz_2",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hva symboliserer mange av Vigelands skulpturer?",
+    "options": ["Menneskets livsløp", "Krig og fred", "Norske eventyr"],
+    "answer": "Menneskets livsløp"
+  },
+  {
+    "id": "vigeland_parken_quiz_3",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hvilket materiale er Monolitten laget av?",
+    "options": ["Granit", "Bronse", "Marmor"],
+    "answer": "Granit"
+  },
+  {
+    "id": "vigeland_parken_quiz_4",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hvor mange skulpturer finnes i parken omtrent?",
+    "options": ["Over 200", "Rundt 50", "Over 1000"],
+    "answer": "Over 200"
+  },
+  {
+    "id": "vigeland_parken_quiz_5",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hva het bygningen hvor Vigeland bodde og arbeidet?",
+    "options": ["Vigeland-museet", "Kunstnernes Hus", "Grotten"],
+    "answer": "Vigeland-museet"
+  },
+
+  {
+    "id": "melgaard_tjuv_quiz_1",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hva er Bjarne Melgaard kjent for?",
+    "options": ["Provokativ samtidskunst", "Klassiske landskap", "Arkitektur"],
+    "answer": "Provokativ samtidskunst"
+  },
+  {
+    "id": "melgaard_tjuv_quiz_2",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hvilken bydel i Oslo forbindes Melgaard med?",
+    "options": ["Tjuvholmen", "Grünerløkka", "Majorstua"],
+    "answer": "Tjuvholmen"
+  },
+  {
+    "id": "melgaard_tjuv_quiz_3",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hva slags temaer tar Melgaard ofte opp?",
+    "options": ["Identitet og seksualitet", "Sport og politikk", "Natur og klima"],
+    "answer": "Identitet og seksualitet"
+  },
+  {
+    "id": "melgaard_tjuv_quiz_4",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hvilken norsk maler blir Melgaard ofte sammenlignet med?",
+    "options": ["Edvard Munch", "Harriet Backer", "Nikolai Astrup"],
+    "answer": "Edvard Munch"
+  },
+  {
+    "id": "melgaard_tjuv_quiz_5",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hva slags uttrykk bruker Melgaard ofte?",
+    "options": ["Fargerik og intens ekspresjonisme", "Minimalistisk realisme", "Fotorealisme"],
+    "answer": "Fargerik og intens ekspresjonisme"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_1",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Hva slags kunst er Steinar Jakobsen særlig kjent for?",
+    "options": ["Billedkunst og portretter", "Musikkinstallasjoner", "Videokunst"],
+    "answer": "Billedkunst og portretter"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_2",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Hvilken pris ble Steinar Jakobsen kåret med i 2016?",
+    "options": ["Oslo Original", "Kunstnerforbundets ærespris", "Hedmarksprisen"],
+    "answer": "Oslo Original"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_3",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Ved hvilket museum er han representert i datasettet?",
+    "options": ["Astrup Fearnley Museet", "Nasjonalmuseet", "MUNCH"],
+    "answer": "Astrup Fearnley Museet"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_4",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Hva kjennetegner Jakobsens kunstneriske stil?",
+    "options": ["Sterke farger og urbane motiver", "Abstrakt minimalisme", "Klassisk landskapskunst"],
+    "answer": "Sterke farger og urbane motiver"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_5",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Hvilken bydel i Oslo har han sterkest tilknytning til?",
+    "options": ["Grünerløkka", "Frogner", "Tjuvholmen"],
+    "answer": "Grünerløkka"
+  },
+
+  {
+    "id": "cecilie_ekeberg_quiz_1",
+    "categoryId": "kunst",
+    "personId": "cecilie_ekeberg",
+    "question": "Hva er Cecilie Malm Brundtland mest kjent for?",
+    "options": ["Ekeberg skulpturpark", "Fotokunst", "Arkitekturprosjekter"],
+    "answer": "Ekeberg skulpturpark"
+  },
+  {
+    "id": "cecilie_ekeberg_quiz_2",
+    "categoryId": "kunst",
+    "personId": "cecilie_ekeberg",
+    "question": "Hva kombinerer Ekebergparken på en unik måte?",
+    "options": ["Kunst, natur og utsikt", "Historie, musikk og litteratur", "Arkitektur og matopplevelser"],
+    "answer": "Kunst, natur og utsikt"
+  },
+  {
+    "id": "cecilie_ekeberg_quiz_3",
+    "categoryId": "kunst",
+    "personId": "cecilie_ekeberg",
+    "question": "Når åpnet Ekebergparken for publikum?",
+    "options": ["2013", "2003", "1998"],
+    "answer": "2013"
+  },
+  {
+    "id": "cecilie_ekeberg_quiz_4",
+    "categoryId": "kunst",
+    "personId": "cecilie_ekeberg",
+    "question": "Hvilken kunstnerisk tradisjon er tydelig representert i parken?",
+    "options": ["Skulptur", "Videokunst", "Tekstilkunst"],
+    "answer": "Skulptur"
+  },
+  {
+    "id": "cecilie_ekeberg_quiz_5",
+    "categoryId": "kunst",
+    "personId": "cecilie_ekeberg",
+    "question": "Hva er parken kjent for i tillegg til kunsten?",
+    "options": ["Utsikt over Oslofjorden", "Stort amfiteater", "Glasspaviljong under bakken"],
+    "answer": "Utsikt over Oslofjorden"
+  },
+
+  {
+    "id": "dronning_sonja_quiz_1",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Hva slags kunst uttrykker Dronning Sonja seg gjennom?",
+    "options": ["Grafikk og naturmotiver", "Fotografi", "Skulptur"],
+    "answer": "Grafikk og naturmotiver"
+  },
+  {
+    "id": "dronning_sonja_quiz_2",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Hva heter kunstprisen hun har vært med på å etablere?",
+    "options": ["Dronning Sonja Print Award", "Kongelige Kunstpris", "Nordisk Grafikkpris"],
+    "answer": "Dronning Sonja Print Award"
+  },
+  {
+    "id": "dronning_sonja_quiz_3",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Ved hvilket sted i Oslo er hun registrert i History Go?",
+    "options": ["Slottet", "Nasjonalmuseet", "Ekebergparken"],
+    "answer": "Slottet"
+  },
+  {
+    "id": "dronning_sonja_quiz_4",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Hva preger ofte motivene i hennes kunst?",
+    "options": ["Norsk natur og landskap", "Portretter av mennesker", "Religiøse symboler"],
+    "answer": "Norsk natur og landskap"
+  },
+  {
+    "id": "dronning_sonja_quiz_5",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Hvilken teknikk bruker hun ofte i grafikken?",
+    "options": ["Litografi", "Oljemaling", "Akrylmaling"],
+    "answer": "Litografi"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hva kan du oppleve på Nasjonalmuseet i Oslo?",
+    "options": ["Norsk og internasjonal kunst", "Naturhistoriske utstillinger", "Musikkinstrumenter"],
+    "answer": "Norsk og internasjonal kunst"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Når åpnet det nye Nasjonalmuseet på Vestbanen?",
+    "options": ["2022", "2018", "2015"],
+    "answer": "2022"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hvilken kjent kunstner har sitt verk 'Brudeferden i Hardanger' utstilt her?",
+    "options": ["Adolph Tidemand og Hans Gude", "Edvard Munch", "Nikolai Astrup"],
+    "answer": "Adolph Tidemand og Hans Gude"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hva het museet tidligere, før sammenslåingen?",
+    "options": ["Nasjonalgalleriet", "Kunstindustrimuseet", "Kunstnernes Hus"],
+    "answer": "Nasjonalgalleriet"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hvor i Oslo ligger Nasjonalmuseet?",
+    "options": ["Vestbanen", "Tjuvholmen", "Grünerløkka"],
+    "answer": "Vestbanen"
+  },
+
+  {
+    "id": "munch_museet_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hva er hovedfokuset i MUNCH-museet?",
+    "options": ["Edvard Munchs liv og verk", "Klassisk musikk", "Norsk design"],
+    "answer": "Edvard Munchs liv og verk"
+  },
+  {
+    "id": "munch_museet_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "I hvilken bydel ligger MUNCH?",
+    "options": ["Bjørvika", "Frogner", "Majorstua"],
+    "answer": "Bjørvika"
+  },
+  {
+    "id": "munch_museet_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hvilket berømt maleri av Munch finnes her?",
+    "options": ["Skrik", "Nattverden", "Livets dans"],
+    "answer": "Skrik"
+  },
+  {
+    "id": "munch_museet_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Når åpnet det nye MUNCH-museet?",
+    "options": ["2021", "2013", "2017"],
+    "answer": "2021"
+  },
+  {
+    "id": "munch_museet_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hva kjennetegner byggets arkitektur?",
+    "options": ["En høy bygning som lener seg mot fjorden", "Et lavt trebygg", "Et rundt museum i stål"],
+    "answer": "En høy bygning som lener seg mot fjorden"
+  },
+
+  {
+    "id": "astrup_fearnley_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hva slags kunst viser Astrup Fearnley Museet?",
+    "options": ["Samtidskunst", "Klassisk maleri", "Barokk kunst"],
+    "answer": "Samtidskunst"
+  },
+  {
+    "id": "astrup_fearnley_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hvem har tegnet bygget til museet?",
+    "options": ["Renzo Piano", "Snøhetta", "BIG Architects"],
+    "answer": "Renzo Piano"
+  },
+  {
+    "id": "astrup_fearnley_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Når åpnet Astrup Fearnley Museet på Tjuvholmen?",
+    "options": ["2012", "2007", "2000"],
+    "answer": "2012"
+  },
+  {
+    "id": "astrup_fearnley_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hva er spesielt med plasseringen ved sjøen?",
+    "options": ["Museet har egen badestrand", "Det er bygget på en øy", "Det flyter på vannet"],
+    "answer": "Museet har egen badestrand"
+  },
+  {
+    "id": "astrup_fearnley_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hva heter den faste samlingen museet forvalter?",
+    "options": ["Astrup Fearnley Collection", "Tjuvholmen Samlingen", "Nordic Art Fund"],
+    "answer": "Astrup Fearnley Collection"
+  },
+
+  {
+    "id": "vigelandsparken_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hva finner du i Vigelandsparken?",
+    "options": ["Over 200 skulpturer av Gustav Vigeland", "Kongefamiliens portretter", "Gamle ruiner"],
+    "answer": "Over 200 skulpturer av Gustav Vigeland"
+  },
+  {
+    "id": "vigelandsparken_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hva symboliserer Monolitten i parken?",
+    "options": ["Menneskets livsløp", "Naturens krefter", "Kjærligheten"],
+    "answer": "Menneskets livsløp"
+  },
+  {
+    "id": "vigelandsparken_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hvilket materiale er brukt i Monolitten?",
+    "options": ["Granit", "Marmor", "Bronse"],
+    "answer": "Granit"
+  },
+  {
+    "id": "vigelandsparken_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hvor ligger Vigelandsparken?",
+    "options": ["Frogner", "Bjørvika", "Tøyen"],
+    "answer": "Frogner"
+  },
+  {
+    "id": "vigelandsparken_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hva heter museet ved siden av parken?",
+    "options": ["Vigeland-museet", "Nasjonalmuseet", "Kunstnernes Hus"],
+    "answer": "Vigeland-museet"
+  },
+
+  {
+    "id": "ekebergparken_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "ekebergparken",
+    "question": "Hva kombinerer Ekebergparken på en unik måte?",
+    "options": ["Kunst, natur og utsikt", "Sport og musikk", "Mat og historie"],
+    "answer": "Kunst, natur og utsikt"
+  },
+  {
+    "id": "ekebergparken_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "ekebergparken",
+    "question": "Når åpnet Ekebergparken?",
+    "options": ["2013", "2003", "1998"],
+    "answer": "2013"
+  },
+  {
+    "id": "ekebergparken_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "ekebergparken",
+    "question": "Hvem sto bak etableringen av parken?",
+    "options": ["Cecilie Malm Brundtland", "Christian Ringnes", "Harriet Backer"],
+    "answer": "Christian Ringnes"
+  },
+  {
+    "id": "ekebergparken_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "ekebergparken",
+    "question": "Hva er parkens hovedtype kunst?",
+    "options": ["Skulpturer", "Installasjoner med lys", "Maleri"],
+    "answer": "Skulpturer"
+  },
+  {
+    "id": "ekebergparken_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "ekebergparken",
+    "question": "Hvilken utsikt får du fra Ekebergparken?",
+    "options": ["Oslofjorden", "Holmenkollen", "Grünerløkka"],
+    "answer": "Oslofjorden"
+  },
+
+  {
+    "id": "tjuvholmen_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "tjuvholmen",
+    "question": "Hva er Tjuvholmen kjent for?",
+    "options": ["Kunst, arkitektur og sjøliv", "Sport og stadioner", "Kongeboliger"],
+    "answer": "Kunst, arkitektur og sjøliv"
+  },
+  {
+    "id": "tjuvholmen_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "tjuvholmen",
+    "question": "Hvilket museum ligger her?",
+    "options": ["Astrup Fearnley Museet", "Nasjonalmuseet", "MUNCH"],
+    "answer": "Astrup Fearnley Museet"
+  },
+  {
+    "id": "tjuvholmen_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "tjuvholmen",
+    "question": "Hva betyr navnet 'Tjuvholmen' historisk?",
+    "options": ["Holmen for straffede tyver", "Navn på en sjømann", "Et område for tollere"],
+    "answer": "Holmen for straffede tyver"
+  },
+  {
+    "id": "tjuvholmen_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "tjuvholmen",
+    "question": "Hvilken arkitektur kjennetegner området?",
+    "options": ["Moderne, fargerik og åpen", "Klassisk barokk", "Historisk trehusbebyggelse"],
+    "answer": "Moderne, fargerik og åpen"
+  },
+  {
+    "id": "tjuvholmen_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "tjuvholmen",
+    "question": "Hva finner du ved enden av Tjuvholmen?",
+    "options": ["En badeplass og skulpturpark", "En gammel borg", "En togstasjon"],
+    "answer": "En badeplass og skulpturpark"
+  },
+
+  {
+    "id": "barcode_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "barcode",
+    "question": "Hva er Barcode i Bjørvika kjent for?",
+    "options": ["Moderne arkitektur", "Gamle trehus", "Universitetsbygg"],
+    "answer": "Moderne arkitektur"
+  },
+  {
+    "id": "barcode_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "barcode",
+    "question": "Hvorfor kalles området 'Barcode'?",
+    "options": ["Bygningene ser ut som en strekkode", "Navnet kommer fra en restaurant", "Det ligger ved gamle toglinjer"],
+    "answer": "Bygningene ser ut som en strekkode"
+  },
+  {
+    "id": "barcode_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "barcode",
+    "question": "Når sto Barcode-bygningene ferdig?",
+    "options": ["2016", "2006", "2021"],
+    "answer": "2016"
+  },
+  {
+    "id": "barcode_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "barcode",
+    "question": "Hva finner du i første etasje av mange Barcode-bygg?",
+    "options": ["Kunst, kafeer og gallerier", "Parkeringshus", "Bibliotek"],
+    "answer": "Kunst, kafeer og gallerier"
+  },
+  {
+    "id": "barcode_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "barcode",
+    "question": "Hvilken bydel ligger Barcode i?",
+    "options": ["Bjørvika", "Grünerløkka", "Frogner"],
+    "answer": "Bjørvika"
+  },
+  {
+    "id": "astrup_fearnley_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hva er spesielt med Astrup Fearnley-samlingen?",
+    "options": ["Privateid samtidskunst", "Statsfinansiert modernisme", "Nordisk klassisisme"],
+    "answer": "Privateid samtidskunst"
+  },
+  {
+    "id": "astrup_fearnley_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hvilken arkitekt sto bak bygget på Tjuvholmen?",
+    "options": ["Renzo Piano", "Snøhetta", "Herzog & de Meuron"],
+    "answer": "Renzo Piano"
+  },
+  {
+    "id": "astrup_fearnley_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Når åpnet Astrup Fearnley Museet på Tjuvholmen?",
+    "options": ["2012", "2007", "2015"],
+    "answer": "2012"
+  },
+  {
+    "id": "astrup_fearnley_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hvilken internasjonal kunstner er blant hovednavnene i samlingen?",
+    "options": ["Jeff Koons", "Damien Hirst", "Ai Weiwei"],
+    "answer": "Jeff Koons"
+  },
+  {
+    "id": "astrup_fearnley_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "astrup_fearnley",
+    "question": "Hva kjennetegner arkitekturen på museet?",
+    "options": ["Glass- og trebue over fjorden", "Marmorfasade og søyler", "Underjordisk galleri"],
+    "answer": "Glass- og trebue over fjorden"
+  },
+
+  {
+    "id": "munch_museet_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hvilket verk finnes i flere versjoner på MUNCH?",
+    "options": ["Skrik", "Madonna", "Livets dans"],
+    "answer": "Skrik"
+  },
+  {
+    "id": "munch_museet_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hvilket land vant arkitektkonkurransen for MUNCH-bygget?",
+    "options": ["Spania", "Norge", "Danmark"],
+    "answer": "Spania"
+  },
+  {
+    "id": "munch_museet_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hva heter arkitektfirmaet bak MUNCH?",
+    "options": ["Estudio Herreros", "Snøhetta", "BIG Architects"],
+    "answer": "Estudio Herreros"
+  },
+  {
+    "id": "munch_museet_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hvor mange etasjer har MUNCH-bygget?",
+    "options": ["13", "10", "15"],
+    "answer": "13"
+  },
+  {
+    "id": "munch_museet_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "munch_museet",
+    "question": "Hva var den største årsaken til flyttingen fra Tøyen til Bjørvika?",
+    "options": ["Bedre klima- og publikumsfasiliteter", "Mangel på parkering", "Endret eierskap"],
+    "answer": "Bedre klima- og publikumsfasiliteter"
+  },
+
+  {
+    "id": "nasjonalmuseet_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hva er hovedideen bak samlingen i Nasjonalmuseet?",
+    "options": ["Samle alle statlige kunstsamlinger", "Utstille kun moderne kunst", "Skape internasjonalt galleri for nordisk kunst"],
+    "answer": "Samle alle statlige kunstsamlinger"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hvilket bygg erstattet Nasjonalgalleriet?",
+    "options": ["Det nye museet på Vestbanen", "Kulturhistorisk museum", "Astrup Fearnley"],
+    "answer": "Det nye museet på Vestbanen"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hvem tegnet Nasjonalmuseet på Vestbanen?",
+    "options": ["Kleihues + Schuwerk", "Snøhetta", "LPO Arkitekter"],
+    "answer": "Kleihues + Schuwerk"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Når åpnet Nasjonalmuseet for publikum?",
+    "options": ["2022", "2020", "2023"],
+    "answer": "2022"
+  },
+  {
+    "id": "nasjonalmuseet_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "nasjonalmuseet",
+    "question": "Hva kalles den store hallen som brukes til midlertidige utstillinger?",
+    "options": ["Lyshallen", "Kunsthallen", "Atriet"],
+    "answer": "Lyshallen"
+  },
+
+  {
+    "id": "vigelandsparken_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hvor mange skulpturer finnes i Vigelandsparken?",
+    "options": ["Over 200", "Nøyaktig 127", "Omtrent 80"],
+    "answer": "Over 200"
+  },
+  {
+    "id": "vigelandsparken_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hva er materialet i Monolitten?",
+    "options": ["Granitt", "Bronse", "Marmor"],
+    "answer": "Granitt"
+  },
+  {
+    "id": "vigelandsparken_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hvor mange år tok det å fullføre Monolitten?",
+    "options": ["14 år", "9 år", "22 år"],
+    "answer": "14 år"
+  },
+  {
+    "id": "vigelandsparken_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Hvilket tema gjennomsyrer Vigelands skulpturer?",
+    "options": ["Menneskets livsløp", "Norsk natur", "Kristne motiver"],
+    "answer": "Menneskets livsløp"
+  },
+  {
+    "id": "vigelandsparken_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "vigelandsparken",
+    "question": "Når ble parken fullført og åpnet for publikum?",
+    "options": ["1949", "1937", "1955"],
+    "answer": "1949"
+  },
+
+  {
+    "id": "ibsen_museum_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "ibsen_museum",
+    "question": "Hvor ligger Ibsens leilighet i Oslo?",
+    "options": ["Arbins gate 1", "Universitetsgata 7", "Karl Johans gate 28"],
+    "answer": "Arbins gate 1"
+  },
+  {
+    "id": "ibsen_museum_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "ibsen_museum",
+    "question": "Når flyttet Henrik Ibsen inn i leiligheten som nå er museum?",
+    "options": ["1895", "1889", "1901"],
+    "answer": "1895"
+  },
+  {
+    "id": "ibsen_museum_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "ibsen_museum",
+    "question": "Hvilket verk skrev Ibsen i denne leiligheten?",
+    "options": ["Når vi døde vågner", "Et dukkehjem", "Hedda Gabler"],
+    "answer": "Når vi døde vågner"
+  },
+  {
+    "id": "ibsen_museum_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "ibsen_museum",
+    "question": "Hva markerer den bronsebelagte stien utenfor museet?",
+    "options": ["Ibsens daglige spaserrute", "Teaterpremierer i Oslo", "Norske dramatikere"],
+    "answer": "Ibsens daglige spaserrute"
+  },
+  {
+    "id": "ibsen_museum_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "ibsen_museum",
+    "question": "Når ble museet nyåpnet etter totalrestaurering?",
+    "options": ["2021", "2019", "2023"],
+    "answer": "2021"
+  },
+
+  {
+    "id": "ibsen_quotes_quiz_1",
+    "categoryId": "kunst",
+    "placeId": "ibsen_quotes",
+    "question": "Hva symboliserer Ibsen-sitatene i gaten mellom Slottet og museet?",
+    "options": ["Forfatterens livsvei", "Kronologisk verkoversikt", "Sitater om byen"],
+    "answer": "Forfatterens livsvei"
+  },
+  {
+    "id": "ibsen_quotes_quiz_2",
+    "categoryId": "kunst",
+    "placeId": "ibsen_quotes",
+    "question": "Hva kalles prosjektet som sitatene er en del av?",
+    "options": ["Ibsenstien", "Ibsen Walk", "Sitatløypa"],
+    "answer": "Ibsenstien"
+  },
+  {
+    "id": "ibsen_quotes_quiz_3",
+    "categoryId": "kunst",
+    "placeId": "ibsen_quotes",
+    "question": "Hvor mange sitater er støpt ned i fortauet mellom museet og Slottet?",
+    "options": ["69", "52", "75"],
+    "answer": "69"
+  },
+  {
+    "id": "ibsen_quotes_quiz_4",
+    "categoryId": "kunst",
+    "placeId": "ibsen_quotes",
+    "question": "Hvilket språk er sitatene skrevet på?",
+    "options": ["Norsk og engelsk", "Kun norsk", "Norsk, tysk og fransk"],
+    "answer": "Norsk og engelsk"
+  },
+  {
+    "id": "ibsen_quotes_quiz_5",
+    "categoryId": "kunst",
+    "placeId": "ibsen_quotes",
+    "question": "Hva er hovedformålet med Ibsenstien?",
+    "options": ["Å hedre Ibsens liv og daglige rutine i Oslo", "Å vise steder fra hans skuespill", "Å lede til teatre som satte opp hans verker"],
+    "answer": "Å hedre Ibsens liv og daglige rutine i Oslo"
+  },
+  {
+    "id": "thorvald_meyer_quiz_1",
+    "categoryId": "kunst",
+    "personId": "thorvald_meyer",
+    "question": "Hva er Thorvald Meyer kjent for i Oslo-historien?",
+    "options": ["Utviklet Grünerløkka", "Bygget Akershus festning", "Grunnla Christiania Bank"],
+    "answer": "Utviklet Grünerløkka"
+  },
+  {
+    "id": "thorvald_meyer_quiz_2",
+    "categoryId": "kunst",
+    "personId": "thorvald_meyer",
+    "question": "Hva bidro Thorvald Meyer med til byen?",
+    "options": ["Gav tomter og gater til allmenn bruk", "Skrev byhistorie", "Startet universitetet"],
+    "answer": "Gav tomter og gater til allmenn bruk"
+  },
+  {
+    "id": "thorvald_meyer_quiz_3",
+    "categoryId": "kunst",
+    "personId": "thorvald_meyer",
+    "question": "Hva heter den berømte hovedgaten på Grünerløkka oppkalt etter ham?",
+    "options": ["Thorvald Meyers gate", "Grüner gate", "Seilduksgata"],
+    "answer": "Thorvald Meyers gate"
+  },
+    {
+    "id": "tinashe_williamson_quiz_1",
+    "categoryId": "kunst",
+    "personId": "tinashe_williamson",
+    "question": "Hva heter boka Tinashe Williamson ga ut om rasisme og samtaler med barn?",
+    "options": ["Håndbok mot rasisme", "Takk for at du ser meg", "Ikke verre enn andre"],
+    "answer": "Takk for at du ser meg"
+  },
+  {
+    "id": "tinashe_williamson_quiz_2",
+    "categoryId": "kunst",
+    "personId": "tinashe_williamson",
+    "question": "Innen hvilket felt har Williamson også jobbet ved siden av forfatterskapet?",
+    "options": ["Skuespill og film", "Scenografi", "Fotografi"],
+    "answer": "Skuespill og film"
+  },
+  {
+    "id": "tinashe_williamson_quiz_3",
+    "categoryId": "kunst",
+    "personId": "tinashe_williamson",
+    "question": "Hva er et sentralt tema i Williamsons kunstneriske virke?",
+    "options": ["Identitet og representasjon", "Natur og bærekraft", "Romfart og teknologi"],
+    "answer": "Identitet og representasjon"
+  },
+  {
+    "id": "edvard_munch_quiz_1",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hva heter Edvard Munchs mest kjente maleri?",
+    "options": ["Skrik", "Madonna", "Aften på Karl Johan"],
+    "answer": "Skrik"
+  },
+  {
+    "id": "edvard_munch_quiz_2",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hvor ligger dagens MUNCH-museum?",
+    "options": ["Bjørvika", "Tøyen", "Bygdøy"],
+    "answer": "Bjørvika"
+  },
+  {
+    "id": "edvard_munch_quiz_3",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hva var et sentralt tema i Munchs kunst?",
+    "options": ["Kjærlighet og angst", "Natur og jakt", "Konge og kirke"],
+    "answer": "Kjærlighet og angst"
+  },
+
+  {
+    "id": "gustav_vigeland_quiz_1",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hvor ligger Vigelandsparken?",
+    "options": ["Frognerparken", "Bygdøy", "Tøyenparken"],
+    "answer": "Frognerparken"
+  },
+  {
+    "id": "gustav_vigeland_quiz_2",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hva heter den berømte monolitten i parken?",
+    "options": ["Monolitten", "Søylen", "Obelisken"],
+    "answer": "Monolitten"
+  },
+  {
+    "id": "gustav_vigeland_quiz_3",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hva var hovedtemaet i Vigelands skulpturer?",
+    "options": ["Menneskelige relasjoner", "Krig og fred", "Konge og makt"],
+    "answer": "Menneskelige relasjoner"
+  },
+
+  {
+    "id": "christian_krohg_quiz_1",
+    "categoryId": "kunst",
+    "personId": "christian_krohg",
+    "question": "Hva skildret Christian Krohg ofte i sine malerier?",
+    "options": ["Arbeiderliv og samfunn", "Konger og helgener", "Fantasimotiver"],
+    "answer": "Arbeiderliv og samfunn"
+  },
+  {
+    "id": "christian_krohg_quiz_2",
+    "categoryId": "kunst",
+    "personId": "christian_krohg",
+    "question": "Hva heter hans mest kjente maleri?",
+    "options": ["Albertine i politilægens venteværelse", "Skrik", "Brudeferden i Hardanger"],
+    "answer": "Albertine i politilægens venteværelse"
+  },
+  {
+    "id": "christian_krohg_quiz_3",
+    "categoryId": "kunst",
+    "personId": "christian_krohg",
+    "question": "Hvilken rolle hadde Krohg i avisen Verdens Gang?",
+    "options": ["Journalist og redaktør", "Trykker", "Politisk kommentator"],
+    "answer": "Journalist og redaktør"
+  },
+  {
+    "id": "frits_thaulow_quiz_1",
+    "categoryId": "kunst",
+    "personId": "frits_thaulow",
+    "question": "Hva er Frits Thaulow kjent for å male?",
+    "options": ["Elver og vinterlandskap", "Portretter", "Kriger"],
+    "answer": "Elver og vinterlandskap"
+  },
+  {
+    "id": "frits_thaulow_quiz_2",
+    "categoryId": "kunst",
+    "personId": "frits_thaulow",
+    "question": "Hvilket kunstmiljø i Oslo var Thaulow sentral i?",
+    "options": ["Kristiania-bohemen", "Telemarkskolen", "Bergensmalerne"],
+    "answer": "Kristiania-bohemen"
+  },
+  {
+    "id": "frits_thaulow_quiz_3",
+    "categoryId": "kunst",
+    "personId": "frits_thaulow",
+    "question": "Hvor i Oslo stilte Thaulow ut tidlig i karrieren?",
+    "options": ["Blomqvist", "Nasjonalgalleriet", "Rådhuset"],
+    "answer": "Blomqvist"
+  },
+  {
+    "id": "hulda_garborg_quiz_1",
+    "categoryId": "kunst",
+    "personId": "hulda_garborg",
+    "question": "Hva var Hulda Garborg opptatt av å bevare?",
+    "options": ["Folkedans og bunad", "Kongelige tradisjoner", "Kunstmaleri"],
+    "answer": "Folkedans og bunad"
+  },
+  {
+    "id": "hulda_garborg_quiz_2",
+    "categoryId": "kunst",
+    "personId": "hulda_garborg",
+    "question": "Hva het teateret hun startet i 1913?",
+    "options": ["Det Norske Teatret", "Nationaltheatret", "Centralteatret"],
+    "answer": "Det Norske Teatret"
+  },
+  {
+    "id": "hulda_garborg_quiz_3",
+    "categoryId": "kunst",
+    "personId": "hulda_garborg",
+    "question": "Hulda Garborg var også forfatter. Hva skrev hun om?",
+    "options": ["Kvinnekamp og folkeliv", "Krig og politikk", "Naturvitenskap"],
+    "answer": "Kvinnekamp og folkeliv"
+  },
+
+  {
+    "id": "aasta_hansteen_quiz_1",
+    "categoryId": "kunst",
+    "personId": "aasta_hansteen",
+    "question": "Hva var Aasta Hansteen kjent som?",
+    "options": ["Kunstner og kvinnesaksforkjemper", "Skuespiller", "Politiker"],
+    "answer": "Kunstner og kvinnesaksforkjemper"
+  },
+  {
+    "id": "aasta_hansteen_quiz_2",
+    "categoryId": "kunst",
+    "personId": "aasta_hansteen",
+    "question": "Hva var spesielt med Hansteens malerier?",
+    "options": ["Sterke farger og selvportretter", "Landskap fra Nord-Norge", "Abstrakt kunst"],
+    "answer": "Sterke farger og selvportretter"
+  },
+  {
+    "id": "aasta_hansteen_quiz_3",
+    "categoryId": "kunst",
+    "personId": "aasta_hansteen",
+    "question": "Hun inspirerte en kjent figur i Ibsens teaterstykke – hvilken?",
+    "options": ["Lona Hessel i Samfundets støtter", "Nora i Et dukkehjem", "Hedda Gabler"],
+    "answer": "Lona Hessel i Samfundets støtter"
+  },
+
+  {
+    "id": "bjarne_melgaard_quiz_1",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hva er Bjarne Melgaard kjent for?",
+    "options": ["Kontroversiell samtidskunst", "Klassiske landskap", "Fotorealisme"],
+    "answer": "Kontroversiell samtidskunst"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_2",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Melgaards verk utforsker ofte tema som:",
+    "options": ["Identitet og seksualitet", "Krig og fred", "Religion"],
+    "answer": "Identitet og seksualitet"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_3",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hvor i Oslo står mange av Melgaards skulpturer?",
+    "options": ["Tjuvholmen", "Aker Brygge", "Ekeberg"],
+    "answer": "Tjuvholmen"
+  },
+
+  {
+    "id": "wenche_foss_quiz_1",
+    "categoryId": "kunst",
+    "personId": "wenche_foss",
+    "question": "Hva var Wenche Foss mest kjent som?",
+    "options": ["Skuespiller", "Malerkunstner", "Forfatter"],
+    "answer": "Skuespiller"
+  },
+  {
+    "id": "wenche_foss_quiz_2",
+    "categoryId": "kunst",
+    "personId": "wenche_foss",
+    "question": "Ved hvilket teater hadde hun sin største karriere?",
+    "options": ["Nationaltheatret", "Det Norske Teatret", "Chat Noir"],
+    "answer": "Nationaltheatret"
+  },
+  {
+    "id": "wenche_foss_quiz_3",
+    "categoryId": "kunst",
+    "personId": "wenche_foss",
+    "question": "Wenche Foss var kjent for å engasjere seg i:",
+    "options": ["Menneskerettigheter", "Politikk", "Dyrevern"],
+    "answer": "Menneskerettigheter"
+  },
+
+  {
+    "id": "rolf_wesenlund_quiz_1",
+    "categoryId": "kunst",
+    "personId": "rolf_wesenlund",
+    "question": "Hva var Rolf Wesenlund kjent som?",
+    "options": ["Komiker og skuespiller", "Maler", "Forfatter"],
+    "answer": "Komiker og skuespiller"
+  },
+  {
+    "id": "rolf_wesenlund_quiz_2",
+    "categoryId": "kunst",
+    "personId": "rolf_wesenlund",
+    "question": "Hvilken kjent figur spilte Wesenlund?",
+    "options": ["Marve Fleksnes", "Stompa", "Fanden"],
+    "answer": "Marve Fleksnes"
+  },
+  {
+    "id": "rolf_wesenlund_quiz_3",
+    "categoryId": "kunst",
+    "personId": "rolf_wesenlund",
+    "question": "Hvilken bydel i Oslo vokste han opp i?",
+    "options": ["Grünerløkka", "Majorstuen", "Sagene"],
+    "answer": "Majorstuen"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_1",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Hva ble Steinar Jakobsen kåret til i 2016?",
+    "options": ["Oslo Original", "Årets kunstner", "Årets politiker"],
+    "answer": "Oslo Original"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_2",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Hvilken type kunst er mest knyttet til Astrup Fearnley Museet?",
+    "options": ["Samtidskunst", "Klassisk maleri", "Fotografi"],
+    "answer": "Samtidskunst"
+  },
+  {
+    "id": "steinar_jakobsen_quiz_3",
+    "categoryId": "kunst",
+    "personId": "steinar_jakobsen",
+    "question": "Steinar Jakobsen hadde en uvanlig samling – hva?",
+    "options": ["Miniatyrskulpturer", "Gamle sykler", "Gamle plakater"],
+    "answer": "Miniatyrskulpturer"
+  },
+  {
+    "id": "stephen_butkus_quiz_1",
+    "categoryId": "kunst",
+    "personId": "stephen_butkus",
+    "question": "Hva jobber Stephen Butkus som?",
+    "options": ["Fotograf", "Musiker", "Skuespiller"],
+    "answer": "Fotograf"
+  },
+  {
+    "id": "stephen_butkus_quiz_2",
+    "categoryId": "kunst",
+    "personId": "stephen_butkus",
+    "question": "Stephen Butkus er kjent for å:",
+    "options": ["Ta bilder av Oslo-landskap", "Male skulpturer", "Lede teaterstykker"],
+    "answer": "Ta bilder av Oslo-landskap"
+  },
+  {
+    "id": "stephen_butkus_quiz_3",
+    "categoryId": "kunst",
+    "personId": "stephen_butkus",
+    "question": "Stephen Butkus har en uvanlig fotograferingsstil. Hva?",
+    "options": ["Bilder fra toppen av sykler", "Bilder i mørket", "Bilder under vann"],
+    "answer": "Bilder fra toppen av sykler"
+  },
+  {
+    "id": "dronning_sonja_quiz_1",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Hva er Dronning Sonja kjent for, i tillegg til å være dronning?",
+    "options": ["Kunstner", "Skuespiller", "Forfatter"],
+    "answer": "Kunstner"
+  },
+  {
+    "id": "dronning_sonja_quiz_2",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Dronning Sonja har bidratt mest til:",
+    "options": ["Grafikk og maleri", "Opera", "Arkitektur"],
+    "answer": "Grafikk og maleri"
+  },
+  {
+    "id": "dronning_sonja_quiz_3",
+    "categoryId": "kunst",
+    "personId": "dronning_sonja",
+    "question": "Dronning Sonja har en spesiell samling – hva?",
+    "options": ["Hatter", "Sykkelutstyr", "Gamle mynter"],
+    "answer": "Hatter"
+  },
+  {
+    "id": "astrid_christensen_quiz_1",
+    "categoryId": "kunst",
+    "personId": "astrid_christensen",
+    "question": "Hva var Astrid Christensen kjent som?",
+    "options": ["Osloprofil", "Skuespiller", "Journalist"],
+    "answer": "Osloprofil"
+  },
+  {
+    "id": "astrid_christensen_quiz_2",
+    "categoryId": "kunst",
+    "personId": "astrid_christensen",
+    "question": "Hva arbeidet Astrid Christensen mest med?",
+    "options": ["Samfunnsarbeid", "Malerkunst", "Opera"],
+    "answer": "Samfunnsarbeid"
+  },
+  {
+    "id": "astrid_christensen_quiz_3",
+    "categoryId": "kunst",
+    "personId": "astrid_christensen",
+    "question": "Hva var et særtrekk ved Astrid Christensen?",
+    "options": ["Hun brukte alltid røde sko", "Hun malte hester", "Hun samlet mynter"],
+    "answer": "Hun brukte alltid røde sko"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_1",
+    "categoryId": "kunst",
+    "personId": "bjarne_melgaard",
+    "question": "Hva er Bjarne Melgaard kjent som?",
+    "options": ["Samtidskunstner", "Fotograf", "Forfatter"],
+    "answer": "Samtidskunstner"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_2",
+    "categoryId": "kunst",
+    "personId": "bjarne_melgaard",
+    "question": "Hva kjennetegner kunsten hans?",
+    "options": ["Provokasjon og sterke farger", "Historiske motiver", "Naturromantikk"],
+    "answer": "Provokasjon og sterke farger"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_3",
+    "categoryId": "kunst",
+    "personId": "bjarne_melgaard",
+    "question": "Hvor i Oslo har han hatt atelier?",
+    "options": ["Tjuvholmen", "Grünerløkka", "Frogner"],
+    "answer": "Tjuvholmen"
+  },
+
+  {
+    "id": "hakon_bleken_quiz_1",
+    "categoryId": "kunst",
+    "personId": "hakon_bleken",
+    "question": "Hvilken kunstform er Håkon Bleken kjent for?",
+    "options": ["Maleri", "Fotografi", "Skulptur"],
+    "answer": "Maleri"
+  },
+  {
+    "id": "hakon_bleken_quiz_2",
+    "categoryId": "kunst",
+    "personId": "hakon_bleken",
+    "question": "Hva er et gjennomgående tema i Blekens kunst?",
+    "options": ["Menneskets sårbarhet", "Bylandskap", "Natur og dyr"],
+    "answer": "Menneskets sårbarhet"
+  },
+  {
+    "id": "hakon_bleken_quiz_3",
+    "categoryId": "kunst",
+    "personId": "hakon_bleken",
+    "question": "Hvor har han hatt store utstillinger?",
+    "options": ["Nasjonalmuseet", "Henie Onstad", "Vigelandsparken"],
+    "answer": "Nasjonalmuseet"
+  },
+  {
+    "id": "liv_ullmann_quiz_1",
+    "categoryId": "kunst",
+    "personId": "liv_ullmann",
+    "question": "Hva er Liv Ullmann mest kjent som?",
+    "options": ["Skuespiller og regissør", "Danser", "Fotograf"],
+    "answer": "Skuespiller og regissør"
+  },
+  {
+    "id": "liv_ullmann_quiz_2",
+    "categoryId": "kunst",
+    "personId": "liv_ullmann",
+    "question": "Hun samarbeidet nært med hvilken filmregissør?",
+    "options": ["Ingmar Bergman", "Lars von Trier", "Bille August"],
+    "answer": "Ingmar Bergman"
+  },
+  {
+    "id": "liv_ullmann_quiz_3",
+    "categoryId": "kunst",
+    "personId": "liv_ullmann",
+    "question": "Liv Ullmann har også engasjert seg i:",
+    "options": ["UNICEF og humanitært arbeid", "Kampsport", "Arkitektur"],
+    "answer": "UNICEF og humanitært arbeid"
+  },
+  {
+    "id": "marianne_aulie_quiz_1",
+    "categoryId": "kunst",
+    "personId": "marianne_aulie",
+    "question": "Hva slags kunst er Marianne Aulie kjent for?",
+    "options": ["Fargerike malerier", "Fotokunst", "Installasjoner"],
+    "answer": "Fargerike malerier"
+  },
+  {
+    "id": "marianne_aulie_quiz_2",
+    "categoryId": "kunst",
+    "personId": "marianne_aulie",
+    "question": "Hva kjennetegner motivene hennes?",
+    "options": ["Klovner og symboler", "Landskap", "Bybilder"],
+    "answer": "Klovner og symboler"
+  },
+  {
+    "id": "marianne_aulie_quiz_3",
+    "categoryId": "kunst",
+    "personId": "marianne_aulie",
+    "question": "Hvor holder hun ofte utstillinger?",
+    "options": ["Galleri A", "Nasjonalmuseet", "Blomqvist"],
+    "answer": "Galleri A"
+  },
+  {
+    "id": "odd_nerdrum_quiz_1",
+    "categoryId": "kunst",
+    "personId": "odd_nerdrum",
+    "question": "Hva slags stil forbindes med Odd Nerdrum?",
+    "options": ["Figurativ malerkunst", "Abstrakt kunst", "Pop-art"],
+    "answer": "Figurativ malerkunst"
+  },
+  {
+    "id": "odd_nerdrum_quiz_2",
+    "categoryId": "kunst",
+    "personId": "odd_nerdrum",
+    "question": "Hva kaller Nerdrum sine elever?",
+    "options": ["Kitsch-malere", "Realister", "Romantikere"],
+    "answer": "Kitsch-malere"
+  },
+  {
+    "id": "odd_nerdrum_quiz_3",
+    "categoryId": "kunst",
+    "personId": "odd_nerdrum",
+    "question": "Hvor har han hatt atelier i Oslo?",
+    "options": ["Kolbotn", "Bygdøy", "Frogner"],
+    "answer": "Bygdøy"
+  },
+  {
+    "id": "per_aabel_quiz_1",
+    "categoryId": "kunst",
+    "personId": "per_aabel",
+    "question": "Hva var Per Aabels yrke?",
+    "options": ["Skuespiller", "Dirigent", "Forfatter"],
+    "answer": "Skuespiller"
+  },
+  {
+    "id": "per_aabel_quiz_2",
+    "categoryId": "kunst",
+    "personId": "per_aabel",
+    "question": "Hvor opptrådte han ofte?",
+    "options": ["Nationaltheatret", "Chat Noir", "Riksteatret"],
+    "answer": "Nationaltheatret"
+  },
+  {
+    "id": "per_aabel_quiz_3",
+    "categoryId": "kunst",
+    "personId": "per_aabel",
+    "question": "Per Aabel var kjent for sin:",
+    "options": ["Humor og eleganse", "Politiske satire", "Musikkteori"],
+    "answer": "Humor og eleganse"
+  },
+  {
+    "id": "rolf_nesch_quiz_1",
+    "categoryId": "kunst",
+    "personId": "rolf_nesch",
+    "question": "Hva var Rolf Nesch kjent som?",
+    "options": ["Grafiker", "Arkitekt", "Komponist"],
+    "answer": "Grafiker"
+  },
+  {
+    "id": "rolf_nesch_quiz_2",
+    "categoryId": "kunst",
+    "personId": "rolf_nesch",
+    "question": "Hva kjennetegner hans arbeider?",
+    "options": ["Metallgrafikk", "Tresnitt", "Fotomontasjer"],
+    "answer": "Metallgrafikk"
+  },
+  {
+    "id": "rolf_nesch_quiz_3",
+    "categoryId": "kunst",
+    "personId": "rolf_nesch",
+    "question": "Hvilket museum i Oslo viser mange av hans verker?",
+    "options": ["Nasjonalmuseet", "Astrup Fearnley", "Munchmuseet"],
+    "answer": "Nasjonalmuseet"
+  },
+  {
+    "id": "harald_sohlberg_quiz_1",
+    "categoryId": "kunst",
+    "personId": "harald_sohlberg",
+    "question": "Hva er Harald Sohlberg kjent for?",
+    "options": ["Malerier av norsk natur", "Fotografier", "Skulpturer"],
+    "answer": "Malerier av norsk natur"
+  },
+  {
+    "id": "harald_sohlberg_quiz_2",
+    "categoryId": "kunst",
+    "personId": "harald_sohlberg",
+    "question": "Hvilket kjent verk malte han?",
+    "options": ["Vinternatt i Rondane", "Skrik", "Brudeferden"],
+    "answer": "Vinternatt i Rondane"
+  },
+  {
+    "id": "harald_sohlberg_quiz_3",
+    "categoryId": "kunst",
+    "personId": "harald_sohlberg",
+    "question": "Hvor vises arbeidene hans ofte?",
+    "options": ["Nasjonalmuseet", "Astrup Fearnley", "KODE"],
+    "answer": "Nasjonalmuseet"
+  },  
+  {
+    "id": "helge_jordal_quiz_1",
+    "categoryId": "kunst",
+    "personId": "helge_jordal",
+    "question": "Hva er Helge Jordal kjent for?",
+    "options": ["Skuespiller", "Forfatter", "Musiker"],
+    "answer": "Skuespiller"
+  },
+  {
+    "id": "helge_jordal_quiz_2",
+    "categoryId": "kunst",
+    "personId": "helge_jordal",
+    "question": "Hvor har han ofte stått på scenen i Oslo?",
+    "options": ["Nationaltheatret", "Operaen", "Det Norske Teatret"],
+    "answer": "Nationaltheatret"
+  },
+  {
+    "id": "helge_jordal_quiz_3",
+    "categoryId": "kunst",
+    "personId": "helge_jordal",
+    "question": "Hvilken rolleforståelse er han kjent for?",
+    "options": ["Sterk tilstedeværelse og humor", "Minimalistisk spill", "Fysisk komedie"],
+    "answer": "Sterk tilstedeværelse og humor"
+  },  
+  {
+    "id": "edvard_munch_quiz_1",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hva heter Edvard Munchs mest berømte maleri?",
+    "options": ["Skrik", "Madonna", "Livets dans"],
+    "answer": "Skrik"
+  },
+  {
+    "id": "edvard_munch_quiz_2",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hvor ligger Munchmuseet i Oslo?",
+    "options": ["Bjørvika", "Tjuvholmen", "Majorstuen"],
+    "answer": "Bjørvika"
+  },
+  {
+    "id": "edvard_munch_quiz_3",
+    "categoryId": "kunst",
+    "personId": "munch_munch",
+    "question": "Hvilket tema går igjen i Munchs kunst?",
+    "options": ["Kjærlighet og angst", "Krig og politikk", "Sport og glede"],
+    "answer": "Kjærlighet og angst"
+  },  
+  {
+    "id": "harriet_backer_quiz_1",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hva var Harriet Backer kjent for?",
+    "options": ["Malerier med lys og interiør", "Skulpturer av bronse", "Fotografier av Oslo"],
+    "answer": "Malerier med lys og interiør"
+  },
+  {
+    "id": "harriet_backer_quiz_2",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hvor henger flere av Backers kjente verk?",
+    "options": ["Nasjonalmuseet", "Astrup Fearnley", "Kunstnernes Hus"],
+    "answer": "Nasjonalmuseet"
+  },
+  {
+    "id": "harriet_backer_quiz_3",
+    "categoryId": "kunst",
+    "personId": "harriet_nasjonalmuseet",
+    "question": "Hvilken tidsepoke tilhørte Harriet Backer?",
+    "options": ["1800-tallet", "1700-tallet", "1900-tallet"],
+    "answer": "1800-tallet"
+  },
+  {
+    "id": "henrik_ibsen_quiz_1",
+    "categoryId": "kunst",
+    "personId": "ibsen_national",
+    "question": "Hvilket teater i Oslo er oppkalt etter Henrik Ibsen?",
+    "options": ["Nationaltheatret", "Det Norske Teatret", "Oslo Nye Teater"],
+    "answer": "Nationaltheatret"
+  },
+  {
+    "id": "henrik_ibsen_quiz_2",
+    "categoryId": "kunst",
+    "personId": "ibsen_national",
+    "question": "Hvilken berømt skuespillfigur skapte Ibsen?",
+    "options": ["Nora i Et dukkehjem", "Solveig i Peer Gynt", "Hedda i Hedda Gabler"],
+    "answer": "Nora i Et dukkehjem"
+  },
+  {
+    "id": "henrik_ibsen_quiz_3",
+    "categoryId": "kunst",
+    "personId": "ibsen_national",
+    "question": "Hva blir Henrik Ibsen ofte kalt?",
+    "options": ["Det moderne dramas far", "Nordens dikterkonge", "Realismens maler"],
+    "answer": "Det moderne dramas far"
+  },
+  {
+    "id": "gustav_vigeland_quiz_1",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hvor finner du Vigelands skulpturer i Oslo?",
+    "options": ["Frognerparken", "Ekebergparken", "Slottsparken"],
+    "answer": "Frognerparken"
+  },
+  {
+    "id": "gustav_vigeland_quiz_2",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hva heter monolitten i Vigelandsparken laget av?",
+    "options": ["Granit", "Bronse", "Marmor"],
+    "answer": "Granit"
+  },
+  {
+    "id": "gustav_vigeland_quiz_3",
+    "categoryId": "kunst",
+    "personId": "vigeland_parken",
+    "question": "Hvilket museum ligger ved parken?",
+    "options": ["Vigelandmuseet", "Munchmuseet", "Astrup Fearnley"],
+    "answer": "Vigelandmuseet"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_1",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hva er Bjarne Melgaard kjent for?",
+    "options": ["Samtidskunst og provokasjon", "Klassisk maleri", "Skulpturer i bronse"],
+    "answer": "Samtidskunst og provokasjon"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_2",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Hvor har Melgaard hatt utstillinger i Oslo?",
+    "options": ["Tjuvholmen", "Grünerløkka", "Vigelandsparken"],
+    "answer": "Tjuvholmen"
+  },
+  {
+    "id": "bjarne_melgaard_quiz_3",
+    "categoryId": "kunst",
+    "personId": "melgaard_tjuv",
+    "question": "Melgaard samarbeidet med hvilket internasjonalt motehus?",
+    "options": ["Balenciaga", "Prada", "Louis Vuitton"],
+    "answer": "Balenciaga"
+  },
+  {
+    "id": "cecilie_malm_quiz_1",
+    "categoryId": "kunst",
+    "personId": "cecilie_ekeberg",
+    "question": "Hvilken type kunst er Cecilie Malm Brundtland kjent for?",
+    "options": ["Skulpturer i Ekebergparken", "Lydinstallasjoner", "Tekstildesign"],
+    "answer": "Skulpturer i Ekebergparken"
+  },
+  {
+    "id": "knut_hamsun_quiz_1",
+    "categoryId": "kunst",
+    "personId": "hamsun_nb",
+    "question": "Hva het Knut Hamsuns mest kjente roman?",
+    "options": ["Sult", "Markens Grøde", "Victoria"],
+    "answer": "Sult"
+  },
+  {
+    "id": "knut_hamsun_quiz_2",
+    "categoryId": "kunst",
+    "personId": "hamsun_nb",
+    "question": "Hvilken pris fikk Hamsun i 1920?",
+    "options": ["Nobelprisen i litteratur", "Nordisk råds litteraturpris", "Brageprisen"],
+    "answer": "Nobelprisen i litteratur"
+  },
+  {
+    "id": "linn_ullmann_quiz_1",
+    "categoryId": "kunst",
+    "personId": "linn_nb",
+    "question": "Hva er Linn Ullmann kjent for?",
+    "options": ["Forfatter og journalist", "Skuespiller", "Fotograf"],
+    "answer": "Forfatter og journalist"
+  },
+  {
+    "id": "petter_stordalen_quiz_1",
+    "categoryId": "kunst",
+    "personId": "stordalen_tjuv",
+    "question": "Hva er Petter Stordalen mest kjent for innen kunst og kultur?",
+    "options": ["Hoteller og kunstsamling", "Malerier", "Teaterproduksjoner"],
+    "answer": "Hoteller og kunstsamling"
+  }
+]

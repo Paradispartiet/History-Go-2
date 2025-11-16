@@ -1,0 +1,857 @@
+[
+  {
+    "id":"carl_berner_quiz_1",
+    "categoryId":"by",
+    "personId":"carl_berner",
+    "question":"Hvilken rolle hadde Carl Berner under unionsoppløsningen i 1905?",
+    "options":["Stortingspresident","Statsminister","Justisminister"],
+    "answer":"Stortingspresident"
+  },
+  {
+    "id":"carl_berner_quiz_2",
+    "categoryId":"by",
+    "personId":"carl_berner",
+    "question":"Hva er Carl Berner mest kjent for i Oslos geografi?",
+    "options":["Et trafikknutepunkt oppkalt etter ham","Et rådhustårn","En universitetsbygning"],
+    "answer":"Et trafikknutepunkt oppkalt etter ham"
+  },
+  {
+    "id":"carl_berner_quiz_3",
+    "categoryId":"by",
+    "personId":"carl_berner",
+    "question":"Hvilket parti representerte han?",
+    "options":["Venstre","Arbeiderpartiet","Høyre"],
+    "answer":"Venstre"
+  },
+  {
+    "id":"carl_berner_quiz_4",
+    "categoryId":"by",
+    "personId":"carl_berner",
+    "question":"Hvilken utdanning hadde Carl Berner?",
+    "options":["Ingeniør","Jurist","Teolog"],
+    "answer":"Ingeniør"
+  },
+  {
+    "id":"carl_berner_quiz_5",
+    "categoryId":"by",
+    "personId":"carl_berner",
+    "question":"Hva var hans viktigste politiske interessefelt?",
+    "options":["Samferdsel og byplanlegging","Utenrikspolitikk","Fiskeriforvaltning"],
+    "answer":"Samferdsel og byplanlegging"
+  },
+  {
+    "id": "barcode_quiz_1",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hva kjennetegner arkitekturen i Barcode-rekken i Bjørvika?",
+    "options": ["En serie smale høyhus med ulik form og fasade", "En homogen glassfasade tegnet av ett firma", "En rekonstruksjon av gamle havnelagre"],
+    "answer": "En serie smale høyhus med ulik form og fasade"
+  },
+  {
+    "id": "barcode_quiz_2",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilke tre kontorer samarbeidet om den overordnede planen for Barcode-området?",
+    "options": ["Dark Arkitekter, A-lab og MVRDV", "Snøhetta, LPO og Arkitektkontoret GASA", "Lund Hagem, FuthArk og Nordic Office of Architecture"],
+    "answer": "Dark Arkitekter, A-lab og MVRDV"
+  },
+  {
+    "id": "barcode_quiz_3",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvorfor fikk området navnet «Barcode»?",
+    "options": ["Byggenes rytme og mellomrom minner om strekkoder", "Det var et gammelt kallenavn fra havnearbeiderne", "Det ble brukt som metafor i en Munch-utstilling"],
+    "answer": "Byggenes rytme og mellomrom minner om strekkoder"
+  },
+  {
+    "id": "barcode_quiz_4",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilken større urban visjon ligger til grunn for utbyggingen av Barcode?",
+    "options": ["Å åpne fjordbyen og knytte sentrum til sjøen", "Å skape et lukket finansdistrikt", "Å flytte Oslo S til Sørenga"],
+    "answer": "Å åpne fjordbyen og knytte sentrum til sjøen"
+  },
+  {
+    "id": "barcode_quiz_5",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilken kritikk har Barcode-prosjektet møtt i ettertid?",
+    "options": ["At byggene skaper en mur mot fjorden", "At høydene er for lave for moderne byutvikling", "At området har for mange grønne parker"],
+    "answer": "At byggene skaper en mur mot fjorden"
+  },
+
+  {
+    "id": "akershus_festning_quiz_1",
+    "categoryId": "by",
+    "placeId": "akershus_festning",
+    "question": "Hvilken norsk konge startet byggingen av Akershus festning rundt år 1300?",
+    "options": ["Håkon V Magnusson", "Christian IV", "Haakon VII"],
+    "answer": "Håkon V Magnusson"
+  },
+  {
+    "id": "akershus_festning_quiz_2",
+    "categoryId": "by",
+    "placeId": "akershus_festning",
+    "question": "Hvilken funksjon fikk festningen utover å være et forsvarsverk?",
+    "options": ["Kongelig residens og maktsentrum", "Kloster og universitet", "Tollstasjon for havnehandelen"],
+    "answer": "Kongelig residens og maktsentrum"
+  },
+  {
+    "id": "akershus_festning_quiz_3",
+    "categoryId": "by",
+    "placeId": "akershus_festning",
+    "question": "Hvordan ble Akershus festning endret på 1600-tallet?",
+    "options": ["Christian IV ombygde den til renessanseslott", "Den ble forlatt til fordel for Fredriksten festning", "Den ble revet og brukt som steinbrudd"],
+    "answer": "Christian IV ombygde den til renessanseslott"
+  },
+  {
+    "id": "akershus_festning_quiz_4",
+    "categoryId": "by",
+    "placeId": "akershus_festning",
+    "question": "Hva rommer Akershus festning i dag?",
+    "options": ["Museer, forsvarskommando og minnesteder", "Statsministerens kontor", "Regjeringsadvokatens arkiv"],
+    "answer": "Museer, forsvarskommando og minnesteder"
+  },
+  {
+    "id": "akershus_festning_quiz_5",
+    "categoryId": "by",
+    "placeId": "akershus_festning",
+    "question": "Hvorfor ble byen flyttet nærmere festningen etter 1624?",
+    "options": ["Bybrannen i Oslo og kongens ønske om bedre kontroll", "Tollinntekter fra havna økte", "Kirkene ble for små i gamle Oslo"],
+    "answer": "Bybrannen i Oslo og kongens ønske om bedre kontroll"
+  },
+
+  {
+    "id": "karl_johan_quiz_1",
+    "categoryId": "by",
+    "placeId": "karl_johans_gate",
+    "question": "Hvilket symbol representerer Karl Johans gate i byens struktur?",
+    "options": ["Akse mellom monarkiet og folket", "Grensen mellom øst og vest", "Tidligere vollgrav mot festningen"],
+    "answer": "Akse mellom monarkiet og folket"
+  },
+  {
+    "id": "karl_johan_quiz_2",
+    "categoryId": "by",
+    "placeId": "karl_johans_gate",
+    "question": "Når fikk gaten sitt nåværende navn til ære for kong Karl Johan?",
+    "options": ["1852", "1814", "1905"],
+    "answer": "1852"
+  },
+  {
+    "id": "karl_johan_quiz_3",
+    "categoryId": "by",
+    "placeId": "karl_johans_gate",
+    "question": "Hvilken bygning ligger omtrent midt i Karl Johans gate?",
+    "options": ["Stortinget", "Domkirken", "Nationaltheatret"],
+    "answer": "Stortinget"
+  },
+  {
+    "id": "karl_johan_quiz_4",
+    "categoryId": "by",
+    "placeId": "karl_johans_gate",
+    "question": "Hva preger arkitekturen langs Karl Johans gate?",
+    "options": ["Historisme og klassisisme fra 1800-tallet", "Funksjonalisme og glassfasader", "Jugend og nyromantikk"],
+    "answer": "Historisme og klassisisme fra 1800-tallet"
+  },
+  {
+    "id": "karl_johan_quiz_5",
+    "categoryId": "by",
+    "placeId": "karl_johans_gate",
+    "question": "Hvilken årlig tradisjon har sin rute langs Karl Johans gate?",
+    "options": ["17. mai-toget", "Oslo Maraton", "Tour of Norway-prologen"],
+    "answer": "17. mai-toget"
+  },
+
+  {
+    "id": "tjuvholmen_quiz_1",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva betyr navnet «Tjuvholmen» historisk?",
+    "options": ["Sted der forbrytere ble henrettet", "Holme eid av fiskere", "Tidligere kallenavn på brygga"],
+    "answer": "Sted der forbrytere ble henrettet"
+  },
+  {
+    "id": "tjuvholmen_quiz_2",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilken transformasjon har området gjennomgått siden 1990-tallet?",
+    "options": ["Fra havneområde til bolig- og kunststrøk", "Fra villastrøk til industriområde", "Fra militærområde til park"],
+    "answer": "Fra havneområde til bolig- og kunststrøk"
+  },
+  {
+    "id": "tjuvholmen_quiz_3",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilket kjent museum ligger ytterst på Tjuvholmen?",
+    "options": ["Astrup Fearnley Museet", "Nasjonalmuseet", "Henie Onstad Kunstsenter"],
+    "answer": "Astrup Fearnley Museet"
+  },
+  {
+    "id": "tjuvholmen_quiz_4",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilken arkitekt sto bak Astrup Fearnley-bygget?",
+    "options": ["Renzo Piano", "Snøhetta", "Jean Nouvel"],
+    "answer": "Renzo Piano"
+  },
+  {
+    "id": "tjuvholmen_quiz_5",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilken bydel grenser Tjuvholmen til?",
+    "options": ["Frogner", "Grünerløkka", "Gamle Oslo"],
+    "answer": "Frogner"
+  },
+
+  {
+    "id": "grunerlokka_quiz_1",
+    "categoryId": "by",
+    "placeId": "grunerlokka",
+    "question": "Hva var Grünerløkka først og fremst på 1800-tallet?",
+    "options": ["Et industri- og arbeiderområde", "Et borgerskapsstrøk", "Et landbruksområde"],
+    "answer": "Et industri- og arbeiderområde"
+  },
+  {
+    "id": "grunerlokka_quiz_2",
+    "categoryId": "by",
+    "placeId": "grunerlokka",
+    "question": "Hva het familien som grunnla Løkka-området på 1600-tallet?",
+    "options": ["Familien Grüner", "Familien Collett", "Familien Anker"],
+    "answer": "Familien Grüner"
+  },
+  {
+    "id": "grunerlokka_quiz_3",
+    "categoryId": "by",
+    "placeId": "grunerlokka",
+    "question": "Hvilken elv ga kraft til bydelen i industrialiseringen?",
+    "options": ["Akerselva", "Hovinbekken", "Alnaelva"],
+    "answer": "Akerselva"
+  },
+  {
+    "id": "grunerlokka_quiz_4",
+    "categoryId": "by",
+    "placeId": "grunerlokka",
+    "question": "Hvilket kjent kultursted ligger i en gammel fabrikk på Løkka?",
+    "options": ["Blå", "Parkteatret", "Vulkan"],
+    "answer": "Blå"
+  },
+  {
+    "id": "grunerlokka_quiz_5",
+    "categoryId": "by",
+    "placeId": "grunerlokka",
+    "question": "Hva kjennetegner arkitekturen i bydelen i dag?",
+    "options": ["Bevarte murbygårder fra 1800-tallet", "Funksjonalistiske høyhus", "Tegl og betong fra etterkrigstiden"],
+    "answer": "Bevarte murbygårder fra 1800-tallet"
+  },
+
+  {
+    "id": "majorstua_quiz_1",
+    "categoryId": "by",
+    "placeId": "majorstua",
+    "question": "Hva betyr navnet Majorstua?",
+    "options": ["Oppkalt etter en gård eid av en major", "Navn fra latinsk for «stor stue»", "Tidligere navn på et veikryss"],
+    "answer": "Oppkalt etter en gård eid av en major"
+  },
+  {
+    "id": "majorstua_quiz_2",
+    "categoryId": "by",
+    "placeId": "majorstua",
+    "question": "Når ble Majorstuen stasjon åpnet som del av Holmenkollbanen?",
+    "options": ["1898", "1912", "1934"],
+    "answer": "1898"
+  },
+  {
+    "id": "majorstua_quiz_3",
+    "categoryId": "by",
+    "placeId": "majorstua",
+    "question": "Hvilken arkitektonisk stil dominerer bydelen Majorstua?",
+    "options": ["Jugendstil og murbygårder", "Barokk", "Nyrasjonalisme"],
+    "answer": "Jugendstil og murbygårder"
+  },
+  {
+    "id": "majorstua_quiz_4",
+    "categoryId": "by",
+    "placeId": "majorstua",
+    "question": "Hva slags knutepunkt er Majorstua i dag?",
+    "options": ["Samlingspunkt for flere T-banelinjer", "Kun togstasjon", "Kun bussterminal"],
+    "answer": "Samlingspunkt for flere T-banelinjer"
+  },
+  {
+    "id": "majorstua_quiz_5",
+    "categoryId": "by",
+    "placeId": "majorstua",
+    "question": "Hva ligger like nord for Majorstua og trekker mange besøkende?",
+    "options": ["Frognerparken", "Aker Brygge", "Ekeberg"],
+    "answer": "Frognerparken"
+  },
+
+  {
+    "id": "frognerparken_quiz_1",
+    "categoryId": "by",
+    "placeId": "frognerparken",
+    "question": "Hva ble Frognerparken opprinnelig anlagt som?",
+    "options": ["Privat hageanlegg for Frogner hovedgård", "Offentlig park", "Kongelig slottspark"],
+    "answer": "Privat hageanlegg for Frogner hovedgård"
+  },
+  {
+    "id": "frognerparken_quiz_2",
+    "categoryId": "by",
+    "placeId": "frognerparken",
+    "question": "Hva er hovedattraksjonen i Frognerparken?",
+    "options": ["Vigelandsanlegget", "Slottet", "Rådhuset"],
+    "answer": "Vigelandsanlegget"
+  },
+  {
+    "id": "frognerparken_quiz_3",
+    "categoryId": "by",
+    "placeId": "frognerparken",
+    "question": "Når ble parken åpnet for allmennheten?",
+    "options": ["1904", "1930", "1865"],
+    "answer": "1904"
+  },
+  {
+    "id": "frognerparken_quiz_4",
+    "categoryId": "by",
+    "placeId": "frognerparken",
+    "question": "Hvilken stil preger Vigelandsbroen og fontenen i anlegget?",
+    "options": ["Nyklassisisme og symbolisme", "Funkis", "Gotikk"],
+    "answer": "Nyklassisisme og symbolisme"
+  },
+  {
+    "id": "frognerparken_quiz_5",
+    "categoryId": "by",
+    "placeId": "frognerparken",
+    "question": "Hvilken bydel ligger Frognerparken i?",
+    "options": ["Frogner", "St. Hanshaugen", "Sagene"],
+    "answer": "Frogner"
+  },
+  {
+    "id": "cecilie_brundtland_quiz_1",
+    "categoryId": "by",
+    "personId": "cecilie_ekeberg",
+    "question": "Hva var hovedideen bak etableringen av Ekeberg skulpturpark?",
+    "options": ["Å forene kunst, natur og utsikt over byen", "Å lage et nasjonalt minnesmerke", "Å skape et nytt museum for samtidskunst"],
+    "answer": "Å forene kunst, natur og utsikt over byen"
+  },
+  {
+    "id": "cecilie_brundtland_quiz_2",
+    "categoryId": "by",
+    "personId": "cecilie_ekeberg",
+    "question": "Hvilken rolle hadde Cecilie Malm Brundtland i utviklingen av parken?",
+    "options": ["Pådriver og prosjektleder for Ekeberg skulpturpark", "Kunstner med egen installasjon", "Kommunal byplanlegger i Oslo"],
+    "answer": "Pådriver og prosjektleder for Ekeberg skulpturpark"
+  },
+  {
+    "id": "cecilie_brundtland_quiz_3",
+    "categoryId": "by",
+    "personId": "cecilie_ekeberg",
+    "question": "Hva var en av hovedutfordringene i etableringen av Ekebergparken?",
+    "options": ["Motstand fra naturvernere og lokalpolitikk", "Manglende finansiering fra kommunen", "Ustabile grunnforhold i fjellsiden"],
+    "answer": "Motstand fra naturvernere og lokalpolitikk"
+  },
+  {
+    "id": "cecilie_brundtland_quiz_4",
+    "categoryId": "by",
+    "personId": "cecilie_ekeberg",
+    "question": "Hvilket kunstnerisk grep kjennetegner Ekeberg skulpturpark?",
+    "options": ["Dialog mellom klassisk og moderne skulptur i landskapet", "Kun minimalistiske installasjoner", "Utstilling av norske malerier under åpen himmel"],
+    "answer": "Dialog mellom klassisk og moderne skulptur i landskapet"
+  },
+  {
+    "id": "cecilie_brundtland_quiz_5",
+    "categoryId": "by",
+    "personId": "cecilie_ekeberg",
+    "question": "Hva skiller Ekeberg skulpturpark fra mange andre byparker i Europa?",
+    "options": ["Privat initiativ med offentlig tilgjengelighet", "Fullt statlig finansiert prosjekt", "Midlertidig pop-up-park uten faste verk"],
+    "answer": "Privat initiativ med offentlig tilgjengelighet"
+  },
+  {
+    "id": "stephen_butkus_quiz_1",
+    "categoryId": "by",
+    "personId": "stephen_butkus",
+    "question": "Hva er Stephen Butkus mest kjent for i Oslos kulturliv?",
+    "options": ["Fotografi med fokus på ungdomskultur og byliv", "Gatekunst og muralmalerier", "Arkitekturtegninger av Barcode"],
+    "answer": "Fotografi med fokus på ungdomskultur og byliv"
+  },
+  {
+    "id": "stephen_butkus_quiz_2",
+    "categoryId": "by",
+    "personId": "stephen_butkus",
+    "question": "Hvor har Butkus ofte stilt ut arbeidene sine?",
+    "options": ["Galleri på Tjuvholmen og pop-up-visninger i sentrum", "Kun internasjonalt, i New York", "På Astrup Fearnley Museet"],
+    "answer": "Galleri på Tjuvholmen og pop-up-visninger i sentrum"
+  },
+  {
+    "id": "stephen_butkus_quiz_3",
+    "categoryId": "by",
+    "personId": "stephen_butkus",
+    "question": "Hva preger bildestilen hans?",
+    "options": ["Sterke kontraster og dokumentarisk realisme", "Langeksponering og landskap", "Abstrakt fargelek uten mennesker"],
+    "answer": "Sterke kontraster og dokumentarisk realisme"
+  },
+  {
+    "id": "stephen_butkus_quiz_4",
+    "categoryId": "by",
+    "personId": "stephen_butkus",
+    "question": "I hvilken sammenheng ble han kåret til «Oslo Original» i 2016?",
+    "options": ["For sitt arbeid med å dokumentere byens kreative miljøer", "For fotoportretter av politikere", "For bidrag til arkitekturfotografi"],
+    "answer": "For sitt arbeid med å dokumentere byens kreative miljøer"
+  },
+  {
+    "id": "stephen_butkus_quiz_5",
+    "categoryId": "by",
+    "personId": "stephen_butkus",
+    "question": "Hva kjennetegner Butkus’ forhold til Oslo som motiv?",
+    "options": ["Byen som levende organisme – alltid i endring", "Historiske fasader og stille tomrom", "Byen som kulisse for mote og reklame"],
+    "answer": "Byen som levende organisme – alltid i endring"
+  },
+  {
+    "id": "barcode_quiz_1",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hva var målet med Barcode-prosjektet i Bjørvika?",
+    "options": ["Variasjon i byrom og høyde", "Kompakt boligbygging", "Industriområde langs fjorden"],
+    "answer": "Variasjon i byrom og høyde"
+  },
+  {
+    "id": "barcode_quiz_2",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hva betyr navnet «Barcode» i byplan-sammenheng?",
+    "options": ["Fasadelinjen minner om en strekkode", "Område med mange kontorbygg", "Kodenavn for fjordbyen"],
+    "answer": "Fasadelinjen minner om en strekkode"
+  },
+  {
+    "id": "barcode_quiz_3",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilket arkitektkontor sto bak DNB-bygget i Barcode?",
+    "options": ["A-Lab", "Snøhetta", "LPO Arkitekter"],
+    "answer": "A-Lab"
+  },
+  {
+    "id": "barcode_quiz_4",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Når sto de første Barcode-byggene ferdig?",
+    "options": ["2007", "2011", "2004"],
+    "answer": "2007"
+  },
+  {
+    "id": "barcode_quiz_5",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hva har vært en vanlig kritikk mot Barcode-prosjektet?",
+    "options": ["Manglende byliv på gateplan", "Overdreven bruk av treverk", "For lav byggehøyde"],
+    "answer": "Manglende byliv på gateplan"
+  },
+
+  {
+    "id": "damstredet_quiz_1",
+    "categoryId": "by",
+    "placeId": "damstredet_telthusbakken",
+    "question": "Hvilken epoke stammer trehusene i Damstredet fra?",
+    "options": ["1700- og 1800-tallet", "Etterkrigstiden", "Middelalderen"],
+    "answer": "1700- og 1800-tallet"
+  },
+  {
+    "id": "damstredet_quiz_2",
+    "categoryId": "by",
+    "placeId": "damstredet_telthusbakken",
+    "question": "Hvilken bydel ligger Damstredet og Telthusbakken i?",
+    "options": ["St. Hanshaugen", "Sagene", "Grünerløkka"],
+    "answer": "St. Hanshaugen"
+  },
+  {
+    "id": "damstredet_quiz_3",
+    "categoryId": "by",
+    "placeId": "damstredet_telthusbakken",
+    "question": "Hva kjennetegner arkitekturen i Damstredet?",
+    "options": ["Små trehus med uregelmessig gateforløp", "Klassiske murhus med søyler", "Rekkehus fra 1920-tallet"],
+    "answer": "Små trehus med uregelmessig gateforløp"
+  },
+  {
+    "id": "damstredet_quiz_4",
+    "categoryId": "by",
+    "placeId": "damstredet_telthusbakken",
+    "question": "Hvilken forfatter bodde i området og beskrev det i sine tekster?",
+    "options": ["Knut Hamsun", "Henrik Ibsen", "Arne Garborg"],
+    "answer": "Knut Hamsun"
+  },
+  {
+    "id": "damstredet_quiz_5",
+    "categoryId": "by",
+    "placeId": "damstredet_telthusbakken",
+    "question": "Hva var en viktig årsak til at trehusene i området ble bevart?",
+    "options": ["Motstand mot sanering på 1960-tallet", "Statlig fredning på 1920-tallet", "Manglende interesse for området"],
+    "answer": "Motstand mot sanering på 1960-tallet"
+  },
+
+  {
+    "id": "tjuvholmen_quiz_1",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva var hovedideen bak byutviklingen av Tjuvholmen?",
+    "options": ["Å kombinere kunst, boliger og sjøliv", "Å bygge kontorområde for finansnæringen", "Å gjenskape middelalderens havnestruktur"],
+    "answer": "Å kombinere kunst, boliger og sjøliv"
+  },
+  {
+    "id": "tjuvholmen_quiz_2",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva var Tjuvholmen brukt til før byutviklingen på 2000-tallet?",
+    "options": ["Havne- og industriområde", "Militærbase", "Fiskemarked"],
+    "answer": "Havne- og industriområde"
+  },
+  {
+    "id": "tjuvholmen_quiz_3",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilken arkitektonisk detalj binder Astrup Fearnley Museet sammen med Tjuvholmen?",
+    "options": ["Broen med trekledning over kanalen", "En felles glassfasade", "En lysinstallasjon på bryggekanten"],
+    "answer": "Broen med trekledning over kanalen"
+  },
+  {
+    "id": "tjuvholmen_quiz_4",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilket arkitektkontor har vært sentralt i utformingen av Tjuvholmen?",
+    "options": ["Niels Torp Arkitekter", "Snøhetta", "LPO Arkitekter"],
+    "answer": "Niels Torp Arkitekter"
+  },
+  {
+    "id": "tjuvholmen_quiz_5",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva kjennetegner gateplanene på Tjuvholmen?",
+    "options": ["Smale passasjer og vekslende byrom", "Aksen mot Slottet", "Symmetrisk rutemønster inspirert av Paris"],
+    "answer": "Smale passasjer og vekslende byrom"
+  },
+
+  {
+    "id": "voienvolden_quiz_1",
+    "categoryId": "by",
+    "placeId": "voienvolden",
+    "question": "Hva brukes Vøienvolden gård til i dag?",
+    "options": ["Museum og byhistorisk senter", "Privat bolig", "Landbruksskole"],
+    "answer": "Museum og byhistorisk senter"
+  },
+  {
+    "id": "voienvolden_quiz_2",
+    "categoryId": "by",
+    "placeId": "voienvolden",
+    "question": "Hvilket år ble Vøienvolden gård oppført?",
+    "options": ["1790", "1825", "1745"],
+    "answer": "1790"
+  },
+  {
+    "id": "voienvolden_quiz_3",
+    "categoryId": "by",
+    "placeId": "voienvolden",
+    "question": "Hva het området som Vøienvolden opprinnelig lå i?",
+    "options": ["Vøyenvangen", "Sagene løkke", "Brenneriveien"],
+    "answer": "Vøyenvangen"
+  },
+  {
+    "id": "voienvolden_quiz_4",
+    "categoryId": "by",
+    "placeId": "voienvolden",
+    "question": "Hvilken organisasjon står for driften av gården i dag?",
+    "options": ["Oslo Museum", "Byantikvaren", "Riksantikvaren"],
+    "answer": "Oslo Museum"
+  },
+  {
+    "id": "voienvolden_quiz_5",
+    "categoryId": "by",
+    "placeId": "voienvolden",
+    "question": "Hva brukes hagen og tunet på Vøienvolden til?",
+    "options": ["Historiske arrangementer og byøkologisk hagebruk", "Dyrehold og landbruksforskning", "Private selskaper"],
+    "answer": "Historiske arrangementer og byøkologisk hagebruk"
+  },
+
+  {
+    "id": "operahuset_quiz_1",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hvilket materiale dekker taket på Operahuset, og gir bygget sin karakteristiske lysrefleksjon?",
+    "options": ["Italiensk marmor fra Carrara", "Granitt fra Larvik", "Kalkstein fra Portugal"],
+    "answer": "Italiensk marmor fra Carrara"
+  },
+  {
+    "id": "operahuset_quiz_2",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Operahuset er tegnet av Snøhetta. Hva var hovedideen bak byggets form?",
+    "options": ["At publikum skulle kunne gå på taket og oppleve byen", "Å etterligne et klassisk gresk amfi", "Å skape illusjonen av et seilskip på fjorden"],
+    "answer": "At publikum skulle kunne gå på taket og oppleve byen"
+  },
+  {
+    "id": "operahuset_quiz_3",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hvilken pris vant Operahuset i 2009 for sin arkitektur?",
+    "options": ["EU-prisen for samtidsarkitektur (Mies van der Rohe-prisen)", "Den norske byggeskikkprisen", "Pritzker Architecture Prize"],
+    "answer": "EU-prisen for samtidsarkitektur (Mies van der Rohe-prisen)"
+  },
+  {
+    "id": "operahuset_quiz_4",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hvorfor er det brukt eik i interiøret i Operahuset?",
+    "options": ["For å gi akustisk varme og kontrast til marmoren", "For å reflektere norsk skogbrukstradisjon", "For å redusere byggets vekt"],
+    "answer": "For å gi akustisk varme og kontrast til marmoren"
+  },
+  {
+    "id": "operahuset_quiz_5",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hva symboliserer vannspeilet foran Operahuset ifølge arkitektene?",
+    "options": ["Overgangen mellom natur og kultur", "Et speilbilde av himmelen", "Et minne om middelalderens havn"],
+    "answer": "Overgangen mellom natur og kultur"
+  },
+
+  {
+    "id": "deichman_quiz_1",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hva var en sentral bærekraftidé bak Deichman Bjørvikas konstruksjon?",
+    "options": ["Naturlig ventilasjon gjennom byggets sjakter", "Solcellepaneler i fasaden", "Regnvann brukt til toaletter"],
+    "answer": "Naturlig ventilasjon gjennom byggets sjakter"
+  },
+  {
+    "id": "deichman_quiz_2",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hvordan bidrar byggets fasade til energibesparelse?",
+    "options": ["Ved å filtrere dagslys og redusere behov for kunstig belysning", "Ved å reflektere varme ut av bygget", "Ved å absorbere CO₂ fra luften"],
+    "answer": "Ved å filtrere dagslys og redusere behov for kunstig belysning"
+  },
+  {
+    "id": "deichman_quiz_3",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hvilken arkitektgruppe sto bak Deichman Bjørvika?",
+    "options": ["Lund Hagem Arkitekter og Atelier Oslo", "Snøhetta og Dark Arkitekter", "Jensen & Skodvin Arkitektkontor"],
+    "answer": "Lund Hagem Arkitekter og Atelier Oslo"
+  },
+  {
+    "id": "deichman_quiz_4",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hva er funksjonen til de store 'lysbrønnene' i Deichman?",
+    "options": ["Å trekke dagslys dypt inn i bygget", "Å ventilere kjelleren", "Å skjerme mot sollys på ettermiddagen"],
+    "answer": "Å trekke dagslys dypt inn i bygget"
+  },
+  {
+    "id": "deichman_quiz_5",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hva var et arkitektonisk mål med Deichman Bjørvika ifølge konkurransegrunnlaget?",
+    "options": ["Å fremstå som et åpent, demokratisk rom", "Å bli Oslos høyeste bygg", "Å forene bibliotek og teater i ett bygg"],
+    "answer": "Å fremstå som et åpent, demokratisk rom"
+  },
+  {
+    "id": "operahuset_quiz_1",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hvilket materiale dekker taket på Operahuset, og gir bygget sin karakteristiske lysrefleksjon?",
+    "options": ["Italiensk marmor fra Carrara", "Granitt fra Larvik", "Kalkstein fra Portugal"],
+    "answer": "Italiensk marmor fra Carrara"
+  },
+  {
+    "id": "operahuset_quiz_2",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Operahuset er tegnet av Snøhetta. Hva var hovedideen bak byggets form?",
+    "options": ["At publikum skulle kunne gå på taket og oppleve byen", "Å etterligne et klassisk gresk amfi", "Å skape illusjonen av et seilskip på fjorden"],
+    "answer": "At publikum skulle kunne gå på taket og oppleve byen"
+  },
+  {
+    "id": "operahuset_quiz_3",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hvilken pris vant Operahuset i 2009 for sin arkitektur?",
+    "options": ["EU-prisen for samtidsarkitektur (Mies van der Rohe-prisen)", "Den norske byggeskikkprisen", "Pritzker Architecture Prize"],
+    "answer": "EU-prisen for samtidsarkitektur (Mies van der Rohe-prisen)"
+  },
+  {
+    "id": "operahuset_quiz_4",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hvorfor er det brukt eik i interiøret i Operahuset?",
+    "options": ["For å gi akustisk varme og kontrast til marmoren", "For å reflektere norsk skogbrukstradisjon", "For å redusere byggets vekt"],
+    "answer": "For å gi akustisk varme og kontrast til marmoren"
+  },
+  {
+    "id": "operahuset_quiz_5",
+    "categoryId": "by",
+    "placeId": "operahuset",
+    "question": "Hva symboliserer vannspeilet foran Operahuset ifølge arkitektene?",
+    "options": ["Overgangen mellom natur og kultur", "Et speilbilde av himmelen", "Et minne om middelalderens havn"],
+    "answer": "Overgangen mellom natur og kultur"
+  },
+
+  {
+    "id": "deichman_quiz_1",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hva var en sentral bærekraftidé bak Deichman Bjørvikas konstruksjon?",
+    "options": ["Naturlig ventilasjon gjennom byggets sjakter", "Solcellepaneler i fasaden", "Regnvann brukt til toaletter"],
+    "answer": "Naturlig ventilasjon gjennom byggets sjakter"
+  },
+  {
+    "id": "deichman_quiz_2",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hvordan bidrar byggets fasade til energibesparelse?",
+    "options": ["Ved å filtrere dagslys og redusere behov for kunstig belysning", "Ved å reflektere varme ut av bygget", "Ved å absorbere CO₂ fra luften"],
+    "answer": "Ved å filtrere dagslys og redusere behov for kunstig belysning"
+  },
+  {
+    "id": "deichman_quiz_3",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hvilken arkitektgruppe sto bak Deichman Bjørvika?",
+    "options": ["Lund Hagem Arkitekter og Atelier Oslo", "Snøhetta og Dark Arkitekter", "Jensen & Skodvin Arkitektkontor"],
+    "answer": "Lund Hagem Arkitekter og Atelier Oslo"
+  },
+  {
+    "id": "deichman_quiz_4",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hva er funksjonen til de store 'lysbrønnene' i Deichman?",
+    "options": ["Å trekke dagslys dypt inn i bygget", "Å ventilere kjelleren", "Å skjerme mot sollys på ettermiddagen"],
+    "answer": "Å trekke dagslys dypt inn i bygget"
+  },
+  {
+    "id": "deichman_quiz_5",
+    "categoryId": "by",
+    "placeId": "deichman_bjorvika",
+    "question": "Hva var et arkitektonisk mål med Deichman Bjørvika ifølge konkurransegrunnlaget?",
+    "options": ["Å fremstå som et åpent, demokratisk rom", "Å bli Oslos høyeste bygg", "Å forene bibliotek og teater i ett bygg"],
+    "answer": "Å fremstå som et åpent, demokratisk rom"
+  },
+
+  {
+    "id": "barcode_quiz_1",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvorfor kalles området 'Barcode'?",
+    "options": ["Fordi byggenes rytme og høyder minner om en strekkode", "Fordi det var et tidligere tollområde", "Fordi hvert bygg har sin egen digitale signatur"],
+    "answer": "Fordi byggenes rytme og høyder minner om en strekkode"
+  },
+  {
+    "id": "barcode_quiz_2",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilken hovedidé lå bak utviklingen av Barcode?",
+    "options": ["Å skape en urban overgang mellom fjorden og sentrum", "Å bygge luksusleiligheter ved sjøen", "Å flytte finansnæringen ut av sentrum"],
+    "answer": "Å skape en urban overgang mellom fjorden og sentrum"
+  },
+  {
+    "id": "barcode_quiz_3",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilket år ble den første bygningen i Barcode ferdigstilt?",
+    "options": ["2007", "2012", "2016"],
+    "answer": "2007"
+  },
+  {
+    "id": "barcode_quiz_4",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvilken bygning i Barcode regnes som mest kontroversiell arkitektonisk?",
+    "options": ["DNB-bygget", "KLP-bygget", "MAD-bygget"],
+    "answer": "DNB-bygget"
+  },
+  {
+    "id": "barcode_quiz_5",
+    "categoryId": "by",
+    "placeId": "barcode",
+    "question": "Hvordan håndteres sollys og varme i Barcode-byggenes fasader?",
+    "options": ["Gjennom perforerte metallskjermer", "Gjennom speilglass som reflekterer sol", "Gjennom naturlig ventilasjon i veggene"],
+    "answer": "Gjennom perforerte metallskjermer"
+  },
+
+  {
+    "id": "tjuvholmen_quiz_1",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva var hovedideen bak byutviklingen av Tjuvholmen?",
+    "options": ["Å kombinere kunst, boliger og sjøliv", "Å bygge kontorområde for finansnæringen", "Å gjenskape middelalderens havnestruktur"],
+    "answer": "Å kombinere kunst, boliger og sjøliv"
+  },
+  {
+    "id": "tjuvholmen_quiz_2",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva var Tjuvholmen brukt til før byutviklingen på 2000-tallet?",
+    "options": ["Havne- og industriområde", "Militærbase", "Fiskemarked"],
+    "answer": "Havne- og industriområde"
+  },
+  {
+    "id": "tjuvholmen_quiz_3",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilken arkitektonisk detalj binder Astrup Fearnley Museet sammen med Tjuvholmen?",
+    "options": ["Broen med trekledning over kanalen", "En felles glassfasade", "En lysinstallasjon på bryggekanten"],
+    "answer": "Broen med trekledning over kanalen"
+  },
+  {
+    "id": "tjuvholmen_quiz_4",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hvilket arkitektkontor har vært sentralt i utformingen av Tjuvholmen?",
+    "options": ["Niels Torp Arkitekter", "Snøhetta", "LPO Arkitekter"],
+    "answer": "Niels Torp Arkitekter"
+  },
+  {
+    "id": "tjuvholmen_quiz_5",
+    "categoryId": "by",
+    "placeId": "tjuvholmen",
+    "question": "Hva kjennetegner gateplanene på Tjuvholmen?",
+    "options": ["Smale passasjer og vekslende byrom", "Aksen mot Slottet", "Symmetrisk rutemønster inspirert av Paris"],
+    "answer": "Smale passasjer og vekslende byrom"
+  },
+
+  {
+    "id": "vigelandsparken_quiz_1",
+    "categoryId": "by",
+    "placeId": "vigelandsparken",
+    "question": "Hva var Vigelandsparkens arkitektoniske idé?",
+    "options": ["En helhetlig akse mellom kunst, natur og byrom", "Et monument over unionsoppløsningen", "En kopi av antikke byanlegg"],
+    "answer": "En helhetlig akse mellom kunst, natur og byrom"
+  },
+  {
+    "id": "vigelandsparken_quiz_2",
+    "categoryId": "by",
+    "placeId": "vigelandsparken",
+    "question": "Hvilken arkitekt samarbeidet med Gustav Vigeland om parkens utforming?",
+    "options": ["Josef Nordahl", "Arnstein Arneberg", "Fridtjof Reppen"],
+    "answer": "Josef Nordahl"
+  },
+  {
+    "id": "vigelandsparken_quiz_3",
+    "categoryId": "by",
+    "placeId": "vigelandsparken",
+    "question": "Hvilken geometrisk struktur danner grunnlaget for parkens hovedakse?",
+    "options": ["En diagonal akse fra Frognerdammen", "Et rektangulært grid", "En sirkel rundt monolitten"],
+    "answer": "En diagonal akse fra Frognerdammen"
+  },
+  {
+    "id": "vigelandsparken_quiz_4",
+    "categoryId": "by",
+    "placeId": "vigelandsparken",
+    "question": "Hvilken betydning har broen i Vigelandsanlegget?",
+    "options": ["Den markerer overgangen mellom livets faser", "Den er en kopi av renessansebroer i Firenze", "Den er parkens eldste del"],
+    "answer": "Den markerer overgangen mellom livets faser"
+  },
+  {
+    "id": "vigelandsparken_quiz_5",
+    "categoryId": "by",
+    "placeId": "vigelandsparken",
+    "question": "Hva representerer Monolitten i Vigelandsparken?",
+    "options": ["Livets kretsløp", "Frihetens søyle", "En religiøs allegori"],
+    "answer": "Livets kretsløp"
+  }
+]

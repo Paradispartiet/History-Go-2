@@ -1,0 +1,674 @@
+[
+  {
+    "id": "tigeren_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "tigeren",
+    "question": "Hva symboliserer tigeren på Jernbanetorget opprinnelig?",
+    "options": ["Et bilde på byens røffe og ville karakter", "En gave fra det britiske kongehuset", "Et symbol på norsk fauna"],
+    "answer": "Et bilde på byens røffe og ville karakter"
+  },
+  {
+    "id": "tigeren_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "tigeren",
+    "question": "Hvem skapte tigerstatuen som står på Jernbanetorget?",
+    "options": ["Elena Engelsen", "Per Ung", "Knut Steen"],
+    "answer": "Elena Engelsen"
+  },
+  {
+    "id": "tigeren_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "tigeren",
+    "question": "Hvorfor kalles Oslo ofte «Tigerstaden»?",
+    "options": ["Henrik Wergeland beskrev kampen mellom land og by som et møte med en tiger", "Byvåpenet inneholder en tiger", "Oslo hadde tidligere dyrehage i sentrum"],
+    "answer": "Henrik Wergeland beskrev kampen mellom land og by som et møte med en tiger"
+  },
+  {
+    "id": "tigeren_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "tigeren",
+    "question": "Når ble tigerstatuen avduket på Jernbanetorget?",
+    "options": ["2000", "1998", "2003"],
+    "answer": "2000"
+  },
+  {
+    "id": "tigeren_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "tigeren",
+    "question": "Hva har tigeren blitt et uoffisielt samlingspunkt for?",
+    "options": ["Markeringer, konserter og gatekunst-aksjoner", "Turistbusser og guidede byturer", "Offisielle kommunale seremonier"],
+    "answer": "Markeringer, konserter og gatekunst-aksjoner"
+  },
+
+  {
+    "id": "bla_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hva kjennetegner stedet Blå ved Akerselva?",
+    "options": ["En klubb og konsertscene i et gammelt industriområde", "Et galleri for samtidskunst på Tjuvholmen", "Et mikrobryggeri etablert av Oslo kommune"],
+    "answer": "En klubb og konsertscene i et gammelt industriområde"
+  },
+  {
+    "id": "bla_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hvilken type musikk har hatt sterkest tilknytning til Blå siden starten?",
+    "options": ["Jazz og elektronika", "Heavy metal", "Klassisk kammermusikk"],
+    "answer": "Jazz og elektronika"
+  },
+  {
+    "id": "bla_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Når åpnet Blå dørene første gang?",
+    "options": ["1998", "2002", "1995"],
+    "answer": "1998"
+  },
+  {
+    "id": "bla_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hva er karakteristisk for området rundt Blå visuelt sett?",
+    "options": ["Graffiti-dekte murvegger og brostein langs Akerselva", "Speilglassfasader og kontorbygg", "Teglpalasser fra 1700-tallet"],
+    "answer": "Graffiti-dekte murvegger og brostein langs Akerselva"
+  },
+  {
+    "id": "bla_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hvilken ukentlig tradisjon er blitt en institusjon på Blå?",
+    "options": ["Søndagsmarkedet ved Akerselva", "Gratis opera-kvelder", "Stand-up på tirsdager"],
+    "answer": "Søndagsmarkedet ved Akerselva"
+  },
+
+  {
+    "id": "hausmania_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hva er Hausmania kjent som i Oslo?",
+    "options": ["Et selvstyrt kulturhus og fristed", "Et gammelt fengsel", "Et tidligere teater for barn"],
+    "answer": "Et selvstyrt kulturhus og fristed"
+  },
+  {
+    "id": "hausmania_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Når oppsto miljøet rundt Hausmania-kvartalet?",
+    "options": ["Tidlig på 2000-tallet", "I 1980-årene", "Etter 2015-renoveringen"],
+    "answer": "Tidlig på 2000-tallet"
+  },
+  {
+    "id": "hausmania_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hvilke uttrykk finner man på Hausmania?",
+    "options": ["Gatekunst, teater, film og aktivisme", "Klassisk dans og opera", "Industridesign og teknologi"],
+    "answer": "Gatekunst, teater, film og aktivisme"
+  },
+  {
+    "id": "hausmania_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hva har vært en gjentakende konflikt knyttet til Hausmania?",
+    "options": ["Kampen om eierskap og kommunal støtte", "Støyplager for naboene", "Skatt på billettinntekter"],
+    "answer": "Kampen om eierskap og kommunal støtte"
+  },
+  {
+    "id": "hausmania_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hva heter kinoen i Hausmania-komplekset?",
+    "options": ["KinoKino", "Caféteatret", "Mir"],
+    "answer": "Mir"
+  },
+
+  {
+    "id": "youngstorget_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "youngstorget",
+    "question": "Hva har Youngstorget historisk vært kjent for?",
+    "options": ["Demonstrasjoner, arbeiderbevegelse og politisk kultur", "Kunstmarked og antikviteter", "Rikmannskvartal med ambassader"],
+    "answer": "Demonstrasjoner, arbeiderbevegelse og politisk kultur"
+  },
+  {
+    "id": "youngstorget_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "youngstorget",
+    "question": "Når ble torget anlagt i sin moderne form?",
+    "options": ["Midten av 1800-tallet", "Etter 1905", "På 1920-tallet"],
+    "answer": "Midten av 1800-tallet"
+  },
+  {
+    "id": "youngstorget_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "youngstorget",
+    "question": "Hvilken bygning dominerer torgets østside?",
+    "options": ["Folketeaterbygningen", "Youngs gate 6", "Regjeringskvartalet"],
+    "answer": "Folketeaterbygningen"
+  },
+  {
+    "id": "youngstorget_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "youngstorget",
+    "question": "Hvilken moderne bruk har torget fått de siste årene?",
+    "options": ["Konserter, matfestivaler og Pride-markeringer", "Bilmesse og antikkmarked", "Statlige seremonier"],
+    "answer": "Konserter, matfestivaler og Pride-markeringer"
+  },
+  {
+    "id": "youngstorget_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "youngstorget",
+    "question": "Hva ligger under selve torget i dag?",
+    "options": ["Et parkeringsanlegg", "Et gammelt bombely", "Byens eldste kloakktunnel"],
+    "answer": "Et parkeringsanlegg"
+  },
+
+  {
+    "id": "grunerlokka_sub_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "grunerlokka",
+    "question": "Hvilken rolle fikk Grünerløkka i Oslos subkultur etter 1990-tallet?",
+    "options": ["Et sentrum for kunst, musikk og alternativ mote", "Et kontorområde for teknologibedrifter", "Et industriområde for metallproduksjon"],
+    "answer": "Et sentrum for kunst, musikk og alternativ mote"
+  },
+  {
+    "id": "grunerlokka_sub_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "grunerlokka",
+    "question": "Hva var Grünerløkkas rykte på 1980-tallet?",
+    "options": ["Slitent arbeiderstrøk med lav husleie", "Eksklusivt villastrøk", "Tettpakket finansdistrikt"],
+    "answer": "Slitent arbeiderstrøk med lav husleie"
+  },
+  {
+    "id": "grunerlokka_sub_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "grunerlokka",
+    "question": "Hvilket sted på Løkka ble tidlig et samlingspunkt for musikere og kunstnere?",
+    "options": ["Café Mir", "Ryes", "Parkteatret"],
+    "answer": "Café Mir"
+  },
+  {
+    "id": "grunerlokka_sub_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "grunerlokka",
+    "question": "Hva har vært en utfordring for subkulturen på Løkka de siste årene?",
+    "options": ["Gentrifisering og økte husleier", "Manglende transport", "Strømrasjonering"],
+    "answer": "Gentrifisering og økte husleier"
+  },
+  {
+    "id": "grunerlokka_sub_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "grunerlokka",
+    "question": "Hvilken festival har bidratt til å løfte Løkkas alternative scene?",
+    "options": ["Musikkfest Oslo", "Øyafestivalen", "By:Larm"],
+    "answer": "Musikkfest Oslo"
+  },
+
+  {
+    "id": "akerselva_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "akerselva",
+    "question": "Hvorfor har Akerselva hatt stor betydning for Oslos subkultur?",
+    "options": ["Den knytter sammen byens alternative miljøer langs elva", "Den er byens viktigste transportåre", "Den brukes til skøyting om vinteren"],
+    "answer": "Den knytter sammen byens alternative miljøer langs elva"
+  },
+  {
+    "id": "akerselva_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "akerselva",
+    "question": "Hva lå tidligere i mange av byggene langs Akerselva?",
+    "options": ["Tekstil- og treindustri", "Hoteller", "Militærforlegninger"],
+    "answer": "Tekstil- og treindustri"
+  },
+  {
+    "id": "akerselva_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "akerselva",
+    "question": "Hva heter turstien som følger Akerselva fra nord til sør?",
+    "options": ["Elvepromenaden", "Fyrstikkruta", "Vannveien"],
+    "answer": "Elvepromenaden"
+  },
+  {
+    "id": "akerselva_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "akerselva",
+    "question": "Hva har vært et kjennetegn ved miljøet langs Akerselva siden 1990-tallet?",
+    "options": ["Samarbeid mellom kunstnere, miljøaktivister og musikere", "Eksklusive boligprosjekter", "Offisielle regjeringskontorer"],
+    "answer": "Samarbeid mellom kunstnere, miljøaktivister og musikere"
+  },
+  {
+    "id": "akerselva_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "akerselva",
+    "question": "Hva har kommunen gjort for å bevare elvas kulturpreg?",
+    "options": ["Opprettet Akerselva miljøpark", "Bygget demninger og sluser", "Stengt området for arrangementer"],
+    "answer": "Opprettet Akerselva miljøpark"
+  },
+  {
+    "id": "hausmania_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hva kjennetegner Hausmania?",
+    "options": ["Selvorganisert kulturhus", "Kommunalt galleri", "Privat klubb"],
+    "answer": "Selvorganisert kulturhus"
+  },
+  {
+    "id": "hausmania_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "I hvilket år ble Hausmania etablert som kulturhus?",
+    "options": ["2000", "1996", "2005"],
+    "answer": "2000"
+  },
+  {
+    "id": "hausmania_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hvilken gate ligger Hausmania i?",
+    "options": ["Hausmanns gate", "Brenneriveien", "Møllergata"],
+    "answer": "Hausmanns gate"
+  },
+  {
+    "id": "hausmania_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hva var bygget brukt til før det ble overtatt av kunstnere og aktivister?",
+    "options": ["Kommunale verksteder", "Trykkeri", "Skolelokaler"],
+    "answer": "Kommunale verksteder"
+  },
+  {
+    "id": "hausmania_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "hausmania",
+    "question": "Hva har Hausmania vært sentralt i å fremme i Oslo?",
+    "options": ["Uavhengig kultur og politisk aktivisme", "Sport og fritidstilbud", "Offentlige kunstinnkjøp"],
+    "answer": "Uavhengig kultur og politisk aktivisme"
+  },
+
+  {
+    "id": "bla_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hva var Blås hovedsjanger da det startet?",
+    "options": ["Jazz og elektronika", "Rock", "Hip-hop"],
+    "answer": "Jazz og elektronika"
+  },
+  {
+    "id": "bla_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Når åpnet Blå dørene for publikum første gang?",
+    "options": ["1998", "2001", "1995"],
+    "answer": "1998"
+  },
+  {
+    "id": "bla_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Langs hvilken elv ligger Blå?",
+    "options": ["Akerselva", "Alnaelva", "Bygdøybekken"],
+    "answer": "Akerselva"
+  },
+  {
+    "id": "bla_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hvilken type kunst preger veggene utenfor Blå?",
+    "options": ["Gatekunst og graffiti", "Fotokunst", "Mosaikk"],
+    "answer": "Gatekunst og graffiti"
+  },
+  {
+    "id": "bla_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "bla",
+    "question": "Hvilket miljø samarbeidet Blå tidlig tett med?",
+    "options": ["Oslo Jazzhusmiljøet", "NRK P3", "Den Norske Opera"],
+    "answer": "Oslo Jazzhusmiljøet"
+  },
+
+  {
+    "id": "skur13_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "skur13",
+    "question": "Hva er hovedaktiviteten i Skur 13?",
+    "options": ["Skate og streetkultur", "Konserter", "Teater"],
+    "answer": "Skate og streetkultur"
+  },
+  {
+    "id": "skur13_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "skur13",
+    "question": "Hvor ligger Skur 13 i Oslo?",
+    "options": ["Tjuvholmen", "Aker Brygge", "Sørenga"],
+    "answer": "Tjuvholmen"
+  },
+  {
+    "id": "skur13_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "skur13",
+    "question": "Hva var Skur 13 opprinnelig bygd som?",
+    "options": ["Lagerhall i havna", "Verksted for jernbanevogner", "Brannstasjon"],
+    "answer": "Lagerhall i havna"
+  },
+  {
+    "id": "skur13_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "skur13",
+    "question": "Hvilken aktivitet foregår i tillegg til skating?",
+    "options": ["Klatring og events", "Dans og koreografi", "Filmvisninger"],
+    "answer": "Klatring og events"
+  },
+  {
+    "id": "skur13_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "skur13",
+    "question": "Hvem står bak driften av Skur 13?",
+    "options": ["Oslo Skateboardforening", "Kulturetaten", "Hav Eiendom"],
+    "answer": "Oslo Skateboardforening"
+  },
+
+  {
+    "id": "torggata_blad_quiz_1",
+    "categoryId": "subkultur",
+    "placeId": "torggata_blad",
+    "question": "Hva var Torggata Blad opprinnelig?",
+    "options": ["Motkulturelt tidsskrift", "Studentavis", "Kommunal plakatavis"],
+    "answer": "Motkulturelt tidsskrift"
+  },
+  {
+    "id": "torggata_blad_quiz_2",
+    "categoryId": "subkultur",
+    "placeId": "torggata_blad",
+    "question": "Hvilket tiår oppstod Torggata Blad som alternativpublikasjon?",
+    "options": ["1970-tallet", "1980-tallet", "1990-tallet"],
+    "answer": "1970-tallet"
+  },
+  {
+    "id": "torggata_blad_quiz_3",
+    "categoryId": "subkultur",
+    "placeId": "torggata_blad",
+    "question": "Hvilket særtrekk hadde Torggata Blads redaksjonelle stil?",
+    "options": ["Satirisk og politisk eksperimenterende", "Objektiv og nøktern", "Kommersiell livsstilsjournalistikk"],
+    "answer": "Satirisk og politisk eksperimenterende"
+  },
+  {
+    "id": "torggata_blad_quiz_4",
+    "categoryId": "subkultur",
+    "placeId": "torggata_blad",
+    "question": "Hva huser lokalet i dag?",
+    "options": ["Kafé og kulturhus", "Teaterlokale", "Bokhandel"],
+    "answer": "Kafé og kulturhus"
+  },
+  {
+    "id": "torggata_blad_quiz_5",
+    "categoryId": "subkultur",
+    "placeId": "torggata_blad",
+    "question": "Hva var Torggata Blad en del av i Oslo på 70- og 80-tallet?",
+    "options": ["Motkulturell undergrunnsbevegelse", "Kommunal ungdomssatsing", "Reklamebransjen"],
+    "answer": "Motkulturell undergrunnsbevegelse"
+  },
+  {
+    "id": "karpe_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "karpe_sorenga",
+    "question": "Hva heter duoen Karpe med fornavn?",
+    "options": ["Chirag og Magdi", "Pål og Espen", "Ali og Jonas"],
+    "answer": "Chirag og Magdi"
+  },
+  {
+    "id": "karpe_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "karpe_sorenga",
+    "question": "Hvilken kjent konsertarena fylte Karpe i 2022?",
+    "options": ["Spektrum", "Ullevaal stadion", "Sentrum Scene"],
+    "answer": "Spektrum"
+  },
+  {
+    "id": "karpe_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "karpe_sorenga",
+    "question": "Hva heter Karpes filmprosjekt fra 2023?",
+    "options": ["Omar Sheriff", "Heisann Montebello", "Alt for Norge"],
+    "answer": "Omar Sheriff"
+  },
+  {
+    "id": "arif_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "arif_stovner",
+    "question": "Hvor i Oslo kommer artisten Arif fra?",
+    "options": ["Stovner", "Majorstuen", "Tøyen"],
+    "answer": "Stovner"
+  },
+  {
+    "id": "arif_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "arif_stovner",
+    "question": "Hva het Arifs debutalbum?",
+    "options": ["HighEnd / Asfalt", "Arif i kirka", "De som aldri gir seg"],
+    "answer": "HighEnd / Asfalt"
+  },
+  {
+    "id": "arif_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "arif_stovner",
+    "question": "Hvilket musikkmiljø var Arif en del av tidlig i karrieren?",
+    "options": ["NMG / G-huset", "Kavaleriet", "Def Jam Norway"],
+    "answer": "Kavaleriet"
+  },
+  {
+    "id": "viggo_tiger_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "viggo_tigeren",
+    "question": "Hva er Viggo 'Byens tiger' kjent for?",
+    "options": ["Gatekunst og Oslomotiver", "Musikkproduksjon", "Poesi"],
+    "answer": "Gatekunst og Oslomotiver"
+  },
+  {
+    "id": "viggo_tiger_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "viggo_tigeren",
+    "question": "Hvor i Oslo finner man flere av Byens tigers motiver?",
+    "options": ["Torggata", "Grünerløkka", "Frogner"],
+    "answer": "Grünerløkka"
+  },
+  {
+    "id": "viggo_tiger_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "viggo_tigeren",
+    "question": "Hva symboliserer tigeren i Viggos kunst?",
+    "options": ["Oslo by", "Kraft og sinne", "Frihet"],
+    "answer": "Oslo by"
+  },
+  {
+    "id": "klanen_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "klanen_intility",
+    "question": "Klanen er supporterklubben til hvilket lag?",
+    "options": ["Vålerenga", "Lyn", "Skeid"],
+    "answer": "Vålerenga"
+  },
+  {
+    "id": "klanen_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "klanen_intility",
+    "question": "Hva heter Vålerengas hjemmebane?",
+    "options": ["Intility Arena", "Ullevaal Stadion", "Bislett Stadion"],
+    "answer": "Intility Arena"
+  },
+  {
+    "id": "klanen_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "klanen_intility",
+    "question": "Hva er Klanen kjent for under kampene?",
+    "options": ["Sanger og bannere", "Stille tilskuere", "Pyroteknikk og raketter"],
+    "answer": "Sanger og bannere"
+  },
+  {
+    "id": "lisa_kristoffersen_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "lisa_kristoffersen_sagene",
+    "question": "Hvem var Lisa Kristoffersen kjent som?",
+    "options": ["Dyrebeskytter og grunnlegger av Dyrebeskyttelsen", "Sanger", "Politiker"],
+    "answer": "Dyrebeskytter og grunnlegger av Dyrebeskyttelsen"
+  },
+  {
+    "id": "lisa_kristoffersen_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "lisa_kristoffersen_sagene",
+    "question": "Når ble Dyrebeskyttelsen Norge grunnlagt?",
+    "options": ["1893", "1913", "1933"],
+    "answer": "1893"
+  },
+  {
+    "id": "lisa_kristoffersen_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "lisa_kristoffersen_sagene",
+    "question": "Hvor i Oslo bodde Lisa Kristoffersen?",
+    "options": ["Sagene", "Frogner", "Grünerløkka"],
+    "answer": "Sagene"
+  },
+  {
+    "id": "kolapalsen_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "kolapalsen_karljohan",
+    "question": "Køla-Pålsen var en kjent figur i hvilken gate?",
+    "options": ["Karl Johan", "Grünerløkka", "Torggata"],
+    "answer": "Karl Johan"
+  },
+  {
+    "id": "kolapalsen_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "kolapalsen_karljohan",
+    "question": "Hva solgte Køla-Pålsen på gata?",
+    "options": ["Kull (Køla)", "Aviser", "Smykker"],
+    "answer": "Kull (Køla)"
+  },
+  {
+    "id": "kolapalsen_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "kolapalsen_karljohan",
+    "question": "Hva ble Køla-Pålsen kjent for i Oslos folkeminne?",
+    "options": ["Humor og sterke meninger", "Sang og dans", "Malerkunst"],
+    "answer": "Humor og sterke meninger"
+  },
+  {
+    "id": "snippmoller_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "snippmoller_stortorvet",
+    "question": "Hva var Snipp-Møller kjent for i Oslo?",
+    "options": ["Gatemusikant", "Avisgutt", "Klovn"],
+    "answer": "Gatemusikant"
+  },
+  {
+    "id": "snippmoller_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "snippmoller_stortorvet",
+    "question": "Hva spilte Snipp-Møller på?",
+    "options": ["Fiolin", "Trekkspill", "Gitar"],
+    "answer": "Trekkspill"
+  },
+  {
+    "id": "snippmoller_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "snippmoller_stortorvet",
+    "question": "Hvor pleide Snipp-Møller å opptre?",
+    "options": ["Stortorvet", "Karl Johan", "Jernbanetorget"],
+    "answer": "Stortorvet"
+  },
+  {
+    "id": "lusefrants_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "lusefrants_vaterland",
+    "question": "Luse-Frants var kjent som:",
+    "options": ["Oslos originale bohem", "Forfatter", "Musiker"],
+    "answer": "Oslos originale bohem"
+  },
+  {
+    "id": "lusefrants_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "lusefrants_vaterland",
+    "question": "Hvilket område holdt Luse-Frants mest til i?",
+    "options": ["Vaterland", "Majorstuen", "Ekeberg"],
+    "answer": "Vaterland"
+  },
+  {
+    "id": "lusefrants_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "lusefrants_vaterland",
+    "question": "Hva var Luse-Frants kjent for å selge?",
+    "options": ["Lodd og brukte klær", "Aviser", "Matvarer"],
+    "answer": "Lodd og brukte klær"
+  },
+  {
+    "id": "advokat_hermansen_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "advokat_hermansen",
+    "question": "Advokat Hermansen var kjent for sin rolle i?",
+    "options": ["Olsenbanden-filmene", "Byretten", "TV-serien Mot i brøstet"],
+    "answer": "Olsenbanden-filmene"
+  },
+  {
+    "id": "advokat_hermansen_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "advokat_hermansen",
+    "question": "Hva var Hermansens yrke i filmene?",
+    "options": ["Politibetjent", "Advokat", "Skurk"],
+    "answer": "Politibetjent"
+  },
+  {
+    "id": "advokat_hermansen_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "advokat_hermansen",
+    "question": "Hvilken norsk skuespiller spilte Hermansen?",
+    "options": ["Sverre Holm", "Harald Heide-Steen jr.", "Arve Opsahl"],
+    "answer": "Sverre Holm"
+  },
+  {
+    "id": "astrid_christensen_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "astrid_christensen",
+    "question": "Hva var Astrid Christensen kjent for i Oslo?",
+    "options": ["Byoriginal og forteller", "Musiker", "Skuespiller"],
+    "answer": "Byoriginal og forteller"
+  },
+  {
+    "id": "astrid_christensen_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "astrid_christensen",
+    "question": "Hva var Astrid Christensens spesialitet?",
+    "options": ["Fortellinger om gamle Oslo", "Sangtekster", "Tegninger"],
+    "answer": "Fortellinger om gamle Oslo"
+  },
+  {
+    "id": "astrid_christensen_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "astrid_christensen",
+    "question": "Hvor pleide Astrid Christensen å opptre?",
+    "options": ["På utesteder i sentrum", "Rådhusplassen", "Frognerparken"],
+    "answer": "På utesteder i sentrum"
+  },
+  {
+    "id": "ole_bjorn_quiz_1",
+    "categoryId": "subkultur",
+    "personId": "ole_bjorn",
+    "question": "Hvem var Ole-Bjørn kjent som?",
+    "options": ["Lokal helt på Grünerløkka", "Politiker", "Kunstner"],
+    "answer": "Lokal helt på Grünerløkka"
+  },
+  {
+    "id": "ole_bjorn_quiz_2",
+    "categoryId": "subkultur",
+    "personId": "ole_bjorn",
+    "question": "Hva var Ole-Bjørn spesielt kjent for?",
+    "options": ["Humor og historier fra gata", "Gatemaling", "Musikk"],
+    "answer": "Humor og historier fra gata"
+  },
+  {
+    "id": "ole_bjorn_quiz_3",
+    "categoryId": "subkultur",
+    "personId": "ole_bjorn",
+    "question": "Hvor i byen kunne man ofte møte Ole-Bjørn?",
+    "options": ["Langs Akerselva", "Majorstuen", "Tøyen senter"],
+    "answer": "Langs Akerselva"
+  }
+]

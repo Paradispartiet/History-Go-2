@@ -697,6 +697,946 @@ window.addEventListener("updateNearby", e => {
 
 
 
+/* ============================================================
+   KAPITTEL H — MERKER & NIVÅER
+   ------------------------------------------------------------
+   Ansvar:
+   • Laste inn badge-definisjoner (badges.json)
+   • Oppdatere nivå basert på poeng i quiz_progress
+   • Pulse-effekt når nivå øker
+   • Knyttet direkte til Kapittel M (quiz) og profile.js
+   ------------------------------------------------------------
+   Strukturer:
+   localStorage.quiz_progress = {
+     [kategori]: {
+        completed: [quizId, ...],
+        points: number
+     }
+   }
+
+   global BADGES = {
+     kategori: {
+       levels: [ { name, threshold, icon }, ... ]
+     }
+   }
+   ============================================================ */
+
+
+// ------------------------------------------------------------
+// 1. LAST INN BADGES (fra data/badges.json)
+// ------------------------------------------------------------
+async function ensureBadgesLoaded() {
+  if (Object.keys(BADGES).length > 0) return;
+
+  try {
+    const res = await fetch("data/badges.json");
+    if (!res.ok) throw new Error("Kunne ikke laste badges.json");
+    const data = await res.json();
+    BADGES = data || {};
+  } catch (err) {
+    console.error("Feil ved lasting av badges:", err);
+    BADGES = {};
+  }
+}
+
+
+// ------------------------------------------------------------
+// 2. PULSE BADGE (animation used in profile/miniprofil)
+// ------------------------------------------------------------
+function pulseBadge(categoryId) {
+  const el = document.querySelector(`[data-badge="${categoryId}"]`);
+  if (!el) return;
+  el.classList.add("badge-pulse");
+  setTimeout(() => el.classList.remove("badge-pulse"), 600);
+}
+
+
+// ------------------------------------------------------------
+// 3. BEREGN NIVÅ BASERT PÅ POENG
+// ------------------------------------------------------------
+function getCategoryLevel(categoryId) {
+  if (!BADGES[categoryId]) return null;
+
+  let progress = {};
+  try {
+    progress = JSON.parse(localStorage.getItem("quiz_progress") || "{}");
+  } catch {
+    progress = {};
+  }
+
+  const catProgress = progress[categoryId] || { points: 0 };
+  const points = catProgress.points || 0;
+
+  const levels = BADGES[categoryId].levels || [];
+  let current = null;
+
+  for (let lvl of levels) {
+    if (points >= lvl.threshold) {
+      current = lvl;
+    }
+  }
+  return current;
+}
+
+
+// ------------------------------------------------------------
+// 4. OPPDATER NIVÅ ETTER FULLFØRT QUIZ
+// ------------------------------------------------------------
+function updateMeritLevel(categoryId) {
+  const level = getCategoryLevel(categoryId);
+  if (!level) return;
+
+  // Pulse the badge if UI-visible
+  pulseBadge(categoryId);
+
+  // Profiloppdatering
+  window.dispatchEvent(new Event("updateProfile"));
+}
+
+
+// ------------------------------------------------------------
+// 5. HOVEDFUNKSJON: POENG + NIVÅ
+// ------------------------------------------------------------
+function addCompletedQuizAndMaybePoint(quizId, categoryId) {
+  if (!quizId || !categoryId) return;
+
+  let progress = {};
+  try {
+    progress = JSON.parse(localStorage.getItem("quiz_progress") || "{}");
+  } catch {
+    progress = {};
+  }
+
+  const catObj = progress[categoryId] || { completed: [], points: 0 };
+
+  // Registrer quiz
+  if (!catObj.completed.includes(quizId)) {
+    catObj.completed.push(quizId);
+    catObj.points = (catObj.points || 0) + 1;
+  }
+
+  progress[categoryId] = catObj;
+  localStorage.setItem("quiz_progress", JSON.stringify(progress));
+
+  // Oppdater nivå visuelt
+  updateMeritLevel(categoryId);
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================
+   KAPITTEL I — KLIKK-DELEGASJON & SHEETS
+   ------------------------------------------------------------
+   Formål:
+   • Global click handler for hele appen
+   • Støtte for data-close (lukking)
+   • Badge-klikk → profil-sheet (håndteres via utils)
+   • ESC-tast lukker popup/sheet
+   ------------------------------------------------------------
+   Viktig:
+   • Ingen HTML-generering her
+   • Ingen popup-UI her
+   • Alle visuelle komponenter ligger i popup-utils.js
+   ============================================================ */
+
+
+// ------------------------------------------------------------
+// 1. GLOBAL CLICK-DELEGASJON
+// ------------------------------------------------------------
+document.addEventListener("click", e => {
+
+  // Lukk popup/sheet (data-close)
+  const closeBtn = e.target.closest("[data-close]");
+  if (closeBtn && window.closePopup) {
+    closePopup();
+    return;
+  }
+
+  // LUKK via overlay-klikk (utils håndterer logikken)
+  if (e.target.classList.contains("hg-overlay") && window.closePopup) {
+    closePopup();
+    return;
+  }
+
+  // Badge-klikk → åpne badge-sheet via utils
+  const badge = e.target.closest("[data-badge]");
+  if (badge && window.openBadgeSheet) {
+    const cat = badge.dataset.badge;
+    openBadgeSheet(cat);
+    return;
+  }
+
+  // Åpne profile-sheet (mini-profil i app)
+  const profileBtn = e.target.closest("[data-open-profile]");
+  if (profileBtn && window.openProfileSheet) {
+    openProfileSheet();
+    return;
+  }
+
+  // Sheet-linker
+  const sheetLink = e.target.closest("[data-sheet-target]");
+  if (sheetLink && window.openSheet) {
+    const target = sheetLink.dataset.sheetTarget;
+    openSheet(target);
+    return;
+  }
+});
+
+
+// ------------------------------------------------------------
+// 2. ESC-TAST → LUKK ALLE POPUPS/SHEETS
+// ------------------------------------------------------------
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && window.closePopup) {
+    closePopup();
+  }
+});
+
+
+// ------------------------------------------------------------
+// 3. EKSPORTERT API (app.js → utils)
+// ------------------------------------------------------------
+// Disse defineres KUN hvis utils ikke allerede har implementert dem.
+// Dette gjør app.js robust hvis utils lastes senere.
+
+if (!window.openSheet) {
+  window.openSheet = function(sheetId, html) {
+    console.warn("openSheet() mangler i utils:", sheetId, html);
+  };
+}
+
+if (!window.closePopup) {
+  window.closePopup = function() {
+    console.warn("closePopup() mangler i utils");
+  };
+}
+
+if (!window.openBadgeSheet) {
+  window.openBadgeSheet = function(catId) {
+    console.warn("openBadgeSheet() mangler i utils:", catId);
+  };
+}
+
+if (!window.openProfileSheet) {
+  window.openProfileSheet = function() {
+    console.warn("openProfileSheet() mangler i utils");
+  };
+}
+
+
+
+
+
+
+
+
+
+/* ============================================================
+   KAPITTEL J — MINI-PROFIL & PROFILHJELPERE
+   ------------------------------------------------------------
+   Formål:
+   • Vise en liten profilboks på kartet (ikon, farge, stats)
+   • Koble miniprofilen til full profilside
+   • Vise quizhistorikk i popup (via utils)
+   ------------------------------------------------------------
+   Viktig:
+   • Ingen HTML-generering utover utfylling av forhåndslagde elementer
+   • All visning av sheets/popup gjøres i utils
+   ============================================================ */
+
+
+
+// ------------------------------------------------------------
+// 1. INITIALISER MINI-PROFILEN
+// ------------------------------------------------------------
+function initMiniProfile() {
+  if (!el.miniProfile) return;
+
+  const totalVisited = Object.keys(VISITED_PLACES).length;
+  const totalQuizzes = Object.keys(COMPLETED_QUIZZES).length;
+
+  el.miniProfile.innerHTML = `
+    <div class="mini-profile-inner" data-open-profile>
+      <div class="mini-p-avatar"></div>
+      <div class="mini-p-stats">
+        <div class="mini-p-line">Steder: ${totalVisited}</div>
+        <div class="mini-p-line">Quiz: ${totalQuizzes}</div>
+      </div>
+    </div>
+  `;
+}
+
+
+
+// ------------------------------------------------------------
+// 2. VIS QUIZHISTORIKK (brukes i utils → åpner popup)
+// ------------------------------------------------------------
+function showQuizHistory() {
+  const quizList = Object.keys(COMPLETED_QUIZZES || {});
+  if (!quizList.length) return "Ingen quizer fullført enda.";
+
+  return quizList
+    .map(id => `<div class="quiz-history-item">${id}</div>`)
+    .join("");
+}
+
+
+
+// ------------------------------------------------------------
+// 3. KOBLE MINI-PROFILEN TIL PROFILSIDE
+// ------------------------------------------------------------
+function wireMiniProfileLinks() {
+  if (!el.miniProfile) return;
+
+  el.miniProfile.addEventListener("click", () => {
+    // I ny versjon åpnes full profilside direkte:
+    window.location.href = "profile.html";
+  });
+}
+
+
+// ------------------------------------------------------------
+// 4. LYTTPÅ OPPDATERINGER – OPPDATER MINI-PROFIL AUTOMATISK
+// ------------------------------------------------------------
+window.addEventListener("updateProfile", () => {
+  initMiniProfile();
+});
+
+
+
+
+
+
+
+
+/* ============================================================
+   KAPITTEL K — BOOT
+   ------------------------------------------------------------
+   Dette er hjertet i History Go 2.
+   Starter kartet, laster data, kobler personer ↔ steder,
+   starter posisjonssystemet, initierer miniprofil og
+   gjør appen klar for bruk.t
+   ============================================================ */
+
+
+// ------------------------------------------------------------
+// 1. HJELPER: LAST EN JSON-FIL OG RETURNER PARSET DATA
+// ------------------------------------------------------------
+async function loadJSON(path) {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(path + " kunne ikke lastes");
+    return await res.json();
+  } catch (err) {
+    console.error("JSON-load-feil:", path, err);
+    return [];
+  }
+}
+
+
+// ------------------------------------------------------------
+// 2. LAST PLACES, PEOPLE, ROUTES, BADGES
+// ------------------------------------------------------------
+async function loadAllData() {
+
+  // Last steder
+  PLACES = await loadJSON("data/places.json");
+
+  // Last personer (støtter flere personer-filer)
+  const peopleFiles = [
+    "data/people.json",
+    "data/people_extra.json",
+    "data/people_bonus.json"
+  ];
+
+  let allPeople = [];
+  for (const file of peopleFiles) {
+    const data = await loadJSON(file);
+    if (Array.isArray(data)) allPeople = allPeople.concat(data);
+  }
+  PEOPLE = allPeople;
+
+  // Last ruter (valgfritt)
+  ROUTES = await loadJSON("data/routes.json");
+
+  // Last badges
+  await ensureBadgesLoaded();
+}
+
+
+// ------------------------------------------------------------
+// 3. LINK PERSONER ↔ STEDER
+// ------------------------------------------------------------
+function linkPeopleToPlaces() {
+  // nullstill
+  for (const p of PLACES) p.people = [];
+
+  PEOPLE.forEach(person => {
+    if (Array.isArray(person.places)) {
+      person.places.forEach(placeId => {
+        const place = PLACES.find(p => p.id === placeId);
+        if (place) place.people.push(person.id);
+      });
+    }
+  });
+}
+
+
+
+// ------------------------------------------------------------
+// 4. HOVEDFUNKSJON – BOOT
+// ------------------------------------------------------------
+async function boot() {
+
+  try {
+    console.log("🚀 History Go 2 – starter boot-prosessen …");
+
+    // 1. Start kart
+    initMap();
+
+    // 2. Last datafiler
+    await loadAllData();
+
+    // 3. Link personer ↔ steder
+    linkPeopleToPlaces();
+
+    // 4. Tegn markører
+    drawPlaceMarkers();
+
+    // 5. Posisjon
+    requestLocation();
+    enableLivePositionUpdates();
+
+    // 6. Init mini-profil
+    initMiniProfile();
+    wireMiniProfileLinks();
+
+    // 7. Første rendering av nærområdeliste hvis posisjon finnes
+    if (userPos) {
+      renderNearbyPlaces(userPos.lat, userPos.lon);
+    }
+
+    console.log("✅ History Go 2 – boot fullført.");
+
+  } catch (err) {
+    console.error("BOOT-FEIL:", err);
+    showToast("❌ Klarte ikke starte appen.");
+  }
+}
+
+
+// ------------------------------------------------------------
+// 5. START VED DOMContentLoaded
+// ------------------------------------------------------------
+document.addEventListener("DOMContentLoaded", () => {
+  boot();
+});
+
+
+
+
+
+
+
+
+/* ============================================================
+   KAPITTEL M — QUIZ
+   ------------------------------------------------------------
+   Håndterer:
+   • Laster quiz-filer per kategori
+   • Starter quiz for et sted eller en person
+   • Viser spørsmål og alternativer i et enkelt quiz-UI
+   • Lagrer progresjon i localStorage ("quiz_progress")
+   • Kaller addCompletedQuizAndMaybePoint() fra Kapittel H
+   • Triggere updateProfile-event når quiz er ferdig
+   ------------------------------------------------------------
+   Avhenger av:
+   • PLACES, PEOPLE (Kapittel A/C)
+   • showToast() (Kapittel A)
+   • tagToCat() (Kapittel B)
+   • addCompletedQuizAndMaybePoint() (Kapittel H)
+   • window.TEST_MODE (valgfritt/definert i Kapittel D)
+   • popup-utils.js → kaller startQuiz(targetId)
+   ============================================================ */
+
+
+// -------------------------------
+// 1. Hvilke filer hører til hvilke kategorier
+// -------------------------------
+const QUIZ_FILE_MAP = {
+  historie:       "data/quiz_historie.json",
+  vitenskap:      "data/quiz_vitenskap.json",
+  kunst:          "data/quiz_kunst.json",
+  musikk:         "data/quiz_musikk.json",
+  natur:          "data/quiz_natur.json",
+  sport:          "data/quiz_sport.json",
+  by:             "data/quiz_by.json",
+  politikk:       "data/quiz_politikk.json",
+  populaerkultur: "data/quiz_populaerkultur.json",
+  subkultur:      "data/quiz_subkultur.json"
+};
+
+
+// Cache: { [categoryId]: [questions...] }
+const QUIZ_CACHE = {};
+
+// Nåværende quiz i minnet
+let CURRENT_QUIZ = null;
+// Struktur:
+// CURRENT_QUIZ = {
+//   id: quizId,
+//   categoryId,
+//   questions: [...],
+//   index: 0,
+//   correct: 0,
+//   context: { place, person }
+// };
+
+
+// ------------------------------------------------------------
+// 2. HJELPER: LAST QUIZ-FIL FOR KATEGORI (med cache)
+// ------------------------------------------------------------
+async function loadQuizForCategory(categoryId) {
+  if (!categoryId) return [];
+
+  if (QUIZ_CACHE[categoryId]) {
+    return QUIZ_CACHE[categoryId];
+  }
+
+  const path = QUIZ_FILE_MAP[categoryId];
+  if (!path) {
+    console.warn("Ingen quiz-fil for kategori:", categoryId);
+    return [];
+  }
+
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error("Kunne ikke laste " + path);
+    const data = await res.json();
+    if (!Array.isArray(data)) {
+      console.warn("Quiz-data ikke array for kategori:", categoryId);
+      QUIZ_CACHE[categoryId] = [];
+      return [];
+    }
+    QUIZ_CACHE[categoryId] = data;
+    return data;
+  } catch (err) {
+    console.error("Feil ved lasting av quiz for", categoryId, err);
+    QUIZ_CACHE[categoryId] = [];
+    return [];
+  }
+}
+
+
+// ------------------------------------------------------------
+// 3. QUIZ-UI – sørg for at overlay finnes
+// ------------------------------------------------------------
+function ensureQuizUI() {
+  if (el.quizContainer && el.quizInner) return;
+
+  const container = document.createElement("div");
+  container.id = "quizContainer";
+  container.className = "quiz-overlay";
+  container.setAttribute("aria-hidden", "true");
+
+  const inner = document.createElement("div");
+  inner.id = "quizInner";
+  inner.className = "quiz-modal";
+
+  container.appendChild(inner);
+  document.body.appendChild(container);
+
+  // Legg inn i DOM-cache
+  el.quizContainer = container;
+  el.quizInner = inner;
+}
+
+
+// ------------------------------------------------------------
+// 4. ÅPNE / LUKKE QUIZ
+// ------------------------------------------------------------
+function openQuiz() {
+  ensureQuizUI();
+  if (!el.quizContainer) return;
+  el.quizContainer.setAttribute("aria-hidden", "false");
+  el.quizContainer.classList.add("visible");
+}
+
+function closeQuiz() {
+  if (!el.quizContainer) return;
+  el.quizContainer.setAttribute("aria-hidden", "true");
+  el.quizContainer.classList.remove("visible");
+  CURRENT_QUIZ = null;
+}
+
+
+// ------------------------------------------------------------
+// 5. START QUIZ (kalles fra popup-utils via data-quiz)
+// ------------------------------------------------------------
+async function startQuiz(targetId) {
+  if (!targetId) return;
+
+  ensureQuizUI();
+
+  // 1) Prøv stedet
+  let place = PLACES.find(p => p.id === targetId);
+  let person = null;
+  let categoryId = null;
+  let quizId = targetId;
+
+  // 2) Hvis ikke sted → prøv person
+  if (!place) {
+    person = PEOPLE.find(p => p.id === targetId);
+    if (!person) {
+      showToast("Fant ingen quiz for dette.");
+      return;
+    }
+  }
+
+  // 3) Fysisk besøkskrav (for steder og personer)
+  try {
+    const visited = JSON.parse(localStorage.getItem("visited_places") || "{}");
+    const testMode = window.TEST_MODE === true;
+
+    if (place && !visited[place.id] && !testMode) {
+      return showToast("📍 Du må besøke stedet først for å ta denne quizen.");
+    }
+
+    if (person && person.placeId && !visited[person.placeId] && !testMode) {
+      return showToast("📍 Du må besøke stedet først for å ta denne quizen.");
+    }
+  } catch {
+    // Hvis noe er korrupt, lar vi brukeren ta quiz, men loggfører
+    console.warn("visited_places kunne ikke leses som JSON.");
+  }
+
+  // 4) Finn kategori
+  if (place) {
+    categoryId = place.category || null;
+  } else if (person) {
+    // Prøv tagToCat først, fallback til stedets kategori
+    const tag = Array.isArray(person.tags) ? person.tags[0] : person.tags;
+    categoryId = tagToCat(tag);
+    if (!categoryId && person.placeId) {
+      const pl = PLACES.find(p => p.id === person.placeId);
+      categoryId = pl?.category || null;
+    }
+  }
+
+  if (!categoryId) {
+    showToast("Ingen kategori for denne quizen.");
+    return;
+  }
+
+  // 5) Last spørsmål for kategorien
+  const allQuestions = await loadQuizForCategory(categoryId);
+  if (!allQuestions.length) {
+    showToast("Ingen spørsmål registrert ennå.");
+    return;
+  }
+
+  // 6) Filtrer spørsmål på placeId/personId hvis mulig
+  let relevant = allQuestions;
+  if (place) {
+    relevant = allQuestions.filter(q => q.placeId === place.id || q.quizId === quizId);
+  } else if (person) {
+    relevant = allQuestions.filter(q => q.personId === person.id || q.quizId === quizId);
+  }
+  if (!relevant.length) {
+    relevant = allQuestions; // fallback: hele kategorien
+  }
+
+  // 7) Sett opp CURRENT_QUIZ
+  CURRENT_QUIZ = {
+    id: quizId,
+    categoryId,
+    questions: relevant,
+    index: 0,
+    correct: 0,
+    context: { place, person }
+  };
+
+  // 8) Start flyten
+  openQuiz();
+  renderQuizQuestion();
+}
+
+
+// ------------------------------------------------------------
+// 6. RENDER NÅVÆRENDE SPØRSMÅL
+// ------------------------------------------------------------
+function renderQuizQuestion() {
+  if (!CURRENT_QUIZ || !el.quizInner) return;
+
+  const { questions, index } = CURRENT_QUIZ;
+
+  // Ferdig?
+  if (index >= questions.length) {
+    return finishQuiz();
+  }
+
+  const q = questions[index];
+
+  const options = Array.isArray(q.options) ? q.options : [];
+  const total = questions.length;
+  const nr = index + 1;
+
+  el.quizInner.innerHTML = `
+    <div class="quiz-header">
+      <div class="quiz-counter">Spørsmål ${nr} av ${total}</div>
+      <button class="quiz-close" data-quiz-close>✕</button>
+    </div>
+
+    <div class="quiz-question">
+      ${q.question || "Uten tekst"}
+    </div>
+
+    <div class="quiz-options">
+      ${
+        options.map((opt, i) => `
+          <button class="quiz-option" data-opt="${i}">
+            ${opt}
+          </button>
+        `).join("")
+      }
+    </div>
+  `;
+}
+
+
+// ------------------------------------------------------------
+// 7. HÅNDTER SVAR (delegasjon på quizInner)
+// ------------------------------------------------------------
+document.addEventListener("click", e => {
+  // Lukkeknapp
+  if (e.target.closest("[data-quiz-close]")) {
+    closeQuiz();
+    return;
+  }
+
+  const btn = e.target.closest(".quiz-option");
+  if (!btn || !CURRENT_QUIZ) return;
+
+  const idx = Number(btn.dataset.opt || "0");
+  const q = CURRENT_QUIZ.questions[CURRENT_QUIZ.index];
+  const options = Array.isArray(q.options) ? q.options : [];
+  const chosen = options[idx];
+  const correctAnswer = q.answer;
+
+  if (chosen === correctAnswer) {
+    CURRENT_QUIZ.correct++;
+    showToast("✅ Riktig!");
+  } else {
+    showToast("❌ Feil svar.");
+  }
+
+  CURRENT_QUIZ.index++;
+  renderQuizQuestion();
+});
+
+
+// ------------------------------------------------------------
+// 8. AVSLUTT QUIZ
+// ------------------------------------------------------------
+function finishQuiz() {
+  if (!CURRENT_QUIZ || !el.quizInner) return;
+
+  const { id, categoryId, correct, questions, context } = CURRENT_QUIZ;
+  const total = questions.length;
+
+  // Lagre progresjon + meritter
+  markQuizAsDone(id, categoryId);
+
+  // Enkel oppsummering
+  el.quizInner.innerHTML = `
+    <div class="quiz-header">
+      <div class="quiz-counter">Quiz ferdig</div>
+      <button class="quiz-close" data-quiz-close>✕</button>
+    </div>
+
+    <div class="quiz-summary">
+      <p>Du fikk <strong>${correct}</strong> av <strong>${total}</strong> riktige.</p>
+    </div>
+  `;
+
+  // Eventuelle rewards (Kapittel N kan utvides)
+  if (context.person && typeof showRewardPerson === "function") {
+    showRewardPerson(context.person);
+  }
+  if (context.place && typeof showRewardPlace === "function") {
+    showRewardPlace(context.place);
+  }
+
+  // Oppdater profil
+  window.dispatchEvent(new Event("updateProfile"));
+}
+
+
+// ------------------------------------------------------------
+// 9. LAGRE QUIZ-PROGRESJON + MERITTER
+// ------------------------------------------------------------
+function markQuizAsDone(quizId, categoryId) {
+  if (!quizId || !categoryId) return;
+
+  let progress = {};
+  try {
+    progress = JSON.parse(localStorage.getItem("quiz_progress") || "{}");
+  } catch {
+    progress = {};
+  }
+
+  const catObj = progress[categoryId] || { completed: [], points: 0 };
+
+  if (!Array.isArray(catObj.completed)) {
+    catObj.completed = [];
+  }
+  if (!catObj.completed.includes(quizId)) {
+    catObj.completed.push(quizId);
+    catObj.points = (catObj.points || 0) + 1;
+  }
+
+  progress[categoryId] = catObj;
+  localStorage.setItem("quiz_progress", JSON.stringify(progress));
+
+  // Meritter (Kapittel H)
+  if (typeof addCompletedQuizAndMaybePoint === "function") {
+    addCompletedQuizAndMaybePoint(quizId, categoryId);
+  }
+}
+
+
+// ------------------------------------------------------------
+// 10. EKSPORTER startQuiz GLOBALT
+// ------------------------------------------------------------
+window.startQuiz = startQuiz;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================
+   KAPITTEL N — REWARD-POPUPS
+   ------------------------------------------------------------
+   Ansvar:
+   • Gi belønning når:
+       - sted besøkes første gang
+       - person låses opp
+       - quiz fullføres
+   • Lagrer i localStorage
+   • Kaller popup-utils for visuell popup
+   ------------------------------------------------------------
+   Dette kapittelet håndterer **kun logikk**, ikke UI.
+   UI kommer fra popup-utils.js → showRewardPerson, showRewardPlace
+   ============================================================ */
+
+
+// ------------------------------------------------------------
+// 1. REGISTRER BESØKT STED
+// ------------------------------------------------------------
+function markPlaceVisited(place) {
+  if (!place || !place.id) return;
+
+  let visited = {};
+  try {
+    visited = JSON.parse(localStorage.getItem("visited_places") || "{}");
+  } catch {
+    visited = {};
+  }
+
+  if (!visited[place.id]) {
+    visited[place.id] = {
+      ts: Date.now()
+    };
+    localStorage.setItem("visited_places", JSON.stringify(visited));
+
+    // Reward-popup finnes i popup-utils
+    if (typeof showRewardPlace === "function") {
+      showRewardPlace(place);
+    }
+
+    // Oppdater profil
+    window.dispatchEvent(new Event("updateProfile"));
+  }
+}
+
+
+// ------------------------------------------------------------
+// 2. REGISTRER PERSON SOM OPPLÅST
+// ------------------------------------------------------------
+function markPersonUnlocked(person) {
+  if (!person || !person.id) return;
+
+  let collected = {};
+  try {
+    collected = JSON.parse(localStorage.getItem("people_collected") || "{}");
+  } catch {
+    collected = {};
+  }
+
+  if (!collected[person.id]) {
+    collected[person.id] = {
+      ts: Date.now()
+    };
+    localStorage.setItem("people_collected", JSON.stringify(collected));
+
+    // Reward-popup fra popup-utils
+    if (typeof showRewardPerson === "function") {
+      showRewardPerson(person);
+    }
+
+    // Oppdater profil
+    window.dispatchEvent(new Event("updateProfile"));
+  }
+}
+
+
+// ------------------------------------------------------------
+// 3. HOVEDFUNKSJON: KOBLER PERSONER TIL STEDER
+// ------------------------------------------------------------
+function unlockPeopleAtPlace(place) {
+  if (!place) return;
+  if (!Array.isArray(place.people)) return;
+
+  place.people.forEach(pid => {
+    const person = PEOPLE.find(p => p.id === pid);
+    if (person) markPersonUnlocked(person);
+  });
+}
+
+
+// ------------------------------------------------------------
+// 4. EKSPORTER GLOBALT
+// ------------------------------------------------------------
+window.markPlaceVisited = markPlaceVisited;
+window.markPersonUnlocked = markPersonUnlocked;
+window.unlockPeopleAtPlace = unlockPeopleAtPlace;

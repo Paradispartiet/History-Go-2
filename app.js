@@ -1048,18 +1048,18 @@ async function loadJSON(path) {
 
 
 // ------------------------------------------------------------
-// 2. LAST PLACES, PEOPLE, ROUTES, BADGES
+// 2. LAST PLACES, PEOPLE, ROUTES, BADGES  (OPPDATERT)
 // ------------------------------------------------------------
 async function loadAllData() {
 
-  // Last steder
+  // --- STEDER ---
   PLACES = await loadJSON("data/places.json");
 
-  // Last personer (støtter flere personer-filer)
+  // --- PERSONER ---
   const peopleFiles = [
     "data/people.json",
-    "data/people_extra.json",
-    "data/people_bonus.json"
+    "data/people_litteratur.json",
+    "data/people_vitenskap.json"
   ];
 
   let allPeople = [];
@@ -1069,10 +1069,10 @@ async function loadAllData() {
   }
   PEOPLE = allPeople;
 
-  // Last ruter (valgfritt)
+  // --- RUTER ---
   ROUTES = await loadJSON("data/routes.json");
 
-  // Last badges
+  // --- BADGES ---
   await ensureBadgesLoaded();
 }
 

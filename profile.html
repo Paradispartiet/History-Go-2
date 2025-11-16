@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Min profil | History Go</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="theme.css">
+
+  <!-- Verktøy for bilde-eksport -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+
+<body class="profile-page">
+
+  <!-- App-ramme -->
+  <div class="app-frame"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a href="index.html" class="brand back-link" aria-label="Til forsiden">←</a>
+    <div class="brand">
+      <img src="bilder/logo_historygo.PNG" class="brand-logo" alt="History Go">
+      <span class="brand-name">Min profil</span>
+    </div>
+  </header>
+
+  <main id="profileMain">
+
+    <!-- PROFILKORT -->
+    <section id="profileCard" class="panel">
+      <div class="top">
+        <h1 id="profileName">Profil</h1>
+        <p id="profileLevel" class="muted">Nivå</p>
+      </div>
+
+      <div id="profileStats" class="stats">
+        <div><strong id="statPlaces">0</strong><span>Steder</span></div>
+        <div><strong id="statPeople">0</strong><span>Personer</span></div>
+        <div><strong id="statQuiz">0</strong><span>Quiz</span></div>
+        <div><strong id="statStreak">0</strong><span>Streak</span></div>
+      </div>
+
+      <div class="actions">
+        <button id="exportProfile" class="btn">Lagre bilde</button>
+        <button id="resetProfile" class="btn danger">Nullstill</button>
+      </div>
+    </section>
+
+
+    <!-- MERKER / NIVÅER -->
+    <section id="badgeSection" class="panel">
+      <h2>Merker</h2>
+      <div id="badgeGrid" class="badges"></div>
+    </section>
+
+
+    <!-- PERSONER -->
+    <section id="peopleSection" class="panel">
+      <h2>Personer</h2>
+      <div id="peopleGrid" class="grid faces"></div>
+    </section>
+
+
+    <!-- STEDER -->
+    <section id="placeSection" class="panel">
+      <h2>Steder</h2>
+      <div id="placeGrid" class="grid places"></div>
+    </section>
+
+
+    <!-- TIDSLINJE -->
+    <section id="timelineSection" class="panel">
+      <h2>Tidslinje</h2>
+      <div id="timelineList" class="timeline"></div>
+    </section>
+
+  </main>
+
+  <!-- Modal-container for popup-utils -->
+  <div id="modal"></div>
+
+  <!-- Scriptrekkefølge -->
+  <script src="utils/popup-utils.js"></script>
+  <script src="profile.js"></script>
+
+</body>
+</html>

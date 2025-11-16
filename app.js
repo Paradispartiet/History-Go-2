@@ -1187,6 +1187,8 @@ const QUIZ_FILE_MAP = {
   politikk:       "data/quiz_politikk.json",
   populaerkultur: "data/quiz_populaerkultur.json",
   subkultur:      "data/quiz_subkultur.json"
+  litteratur:     "data/quiz_litteratur.json",
+  naeringsliv:    "data/quiz_naeringsliv.json"
 };
 
 
